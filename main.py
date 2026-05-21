@@ -16,7 +16,7 @@ class MyVoiceAgent(Agent):
         )
 
     async def on_enter(self) -> None:
-        await self.session.say("Hello! I'm your real-time assistant. How can I help you today?")
+        await self.session.say("Hello! I'm Medoria, your real-time assistant. How can I help you today?")
 
     async def on_exit(self) -> None:
         await self.session.say("Goodbye! It was great talking with you!")
