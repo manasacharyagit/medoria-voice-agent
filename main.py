@@ -11,8 +11,11 @@ load_dotenv()
 
 class MyVoiceAgent(Agent):
     def __init__(self):
+        with open("prompt.txt", "r", encoding="utf-8") as f:
+            instructions = f.read()
+        
         super().__init__(
-            instructions="You are a helpful AI assistant that answers phone calls. Keep your responses concise and friendly.",
+            instructions=instructions,
         )
 
     async def on_enter(self) -> None:
