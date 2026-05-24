@@ -50,6 +50,15 @@ class MyVoiceAgent(Agent):
         logging.info(f"Doctor data loaded successfully for: {doctor_id}")
         return json.dumps(data, indent=2, ensure_ascii=False)
 
+    async def on_enter(self) -> None:
+        await self.session.say(
+            "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
+            "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
+        )
+
+    async def on_exit(self) -> None:
+        await self.session.say("Thank you for calling Medoria. Have a great day, take care!")
+
            
 
         
