@@ -1,0 +1,81 @@
+{
+  "doctor_id": "dr_sneha_kapoor",
+  "name": "Dr. Sneha Kapoor",
+  "qualification": "MBBS, MD (Dermatology)",
+  "experience_years": 9,
+  "specialization": "dermatologist",
+  "languages": ["English", "Hindi"],
+  "clinic_name": "Kapoor Skin & Hair Clinic",
+  "address": "14, First Floor, Saket District Centre, New Delhi 110017",
+  "schedule": {
+    "monday":    { "morning": "11:00 AM - 2:00 PM", "evening": "5:00 PM - 8:00 PM" },
+    "tuesday":   { "morning": "11:00 AM - 2:00 PM", "evening": "5:00 PM - 8:00 PM" },
+    "wednesday": { "morning": null,                  "evening": "5:00 PM - 8:00 PM" },
+    "thursday":  { "morning": "11:00 AM - 2:00 PM", "evening": "5:00 PM - 8:00 PM" },
+    "friday":    { "morning": "11:00 AM - 2:00 PM", "evening": "5:00 PM - 8:00 PM" },
+    "saturday":  { "morning": "10:00 AM - 2:00 PM", "evening": null },
+    "sunday":    null
+  },
+  "services": [
+    {
+      "service_id": "skin_consultation",
+      "name": "Skin Consultation",
+      "duration_minutes": 30,
+      "price_inr": 700,
+      "description": "Full skin examination, diagnosis, personalized treatment plan",
+      "good_for": "Acne, rashes, pigmentation, eczema, psoriasis, first visit"
+    },
+    {
+      "service_id": "acne_treatment",
+      "name": "Acne Treatment",
+      "duration_minutes": 30,
+      "price_inr": 1200,
+      "description": "Medical grade acne treatment including chemical peels and medication",
+      "good_for": "Mild to severe acne, acne scars, oily skin",
+      "sessions": "Minimum 4-6 sessions recommended"
+    },
+    {
+      "service_id": "hair_loss_treatment",
+      "name": "Hair Loss Treatment",
+      "duration_minutes": 45,
+      "price_inr": 2000,
+      "description": "PRP therapy, mesotherapy, or medication based on diagnosis",
+      "good_for": "Hair thinning, receding hairline, patchy hair loss",
+      "sessions": "6-8 sessions for best results"
+    },
+    {
+      "service_id": "laser_treatment",
+      "name": "Laser Treatment",
+      "duration_minutes": 45,
+      "price_inr": 3000,
+      "description": "Laser for pigmentation, dark spots, hair removal, skin rejuvenation",
+      "good_for": "Uneven skin tone, unwanted hair, sun damage",
+      "sessions": "3-6 sessions depending on concern"
+    },
+    {
+      "service_id": "anti_aging",
+      "name": "Anti Aging Treatment",
+      "duration_minutes": 60,
+      "price_inr": 4500,
+      "description": "Botox, fillers, or non invasive skin tightening procedures",
+      "good_for": "Fine lines, wrinkles, sagging skin, dull complexion",
+      "note": "Consultation mandatory before procedure"
+    },
+    {
+      "service_id": "mole_removal",
+      "name": "Mole & Wart Removal",
+      "duration_minutes": 20,
+      "price_inr": 1500,
+      "description": "Safe removal using laser or radiofrequency",
+      "good_for": "Unwanted moles, warts, skin tags",
+      "recovery": "3-5 days healing time"
+    }
+  ],
+  "policies": {
+    "appointment": "Required, walk-ins on availability",
+    "cancellation": "Please cancel 2 hours in advance",
+    "emergency": "Severe allergic reactions please visit nearest hospital",
+    "payment": ["Cash", "UPI", "All major cards"],
+    "parking": "Saket District Centre parking available"
+  }
+}

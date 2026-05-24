@@ -1,6 +1,7 @@
 import asyncio
 import traceback
-from videosdk.agents import Agent, AgentSession, Pipeline, JobContext, RoomOptions, WorkerJob, Options
+import json
+from videosdk.agents import Agent, AgentSession, Pipeline, JobContext, RoomOptions, WorkerJob, Options, function_tool
 from videosdk.plugins.google import GeminiRealtime, GeminiLiveConfig
 from dotenv import load_dotenv
 import os
@@ -9,22 +10,60 @@ logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
+#-----Data loading fucntions--
+
+def load_specializations():
+    with open("specializations.json", "r", encoding = "utf-8") as f:
+        return json.load(f)
+    
+def load_prompt():
+    with open("prompt.txt", "r", encoding = "utf-8") as f:
+        return f.read()
+
+def build_prompt(specializations: dict):
+    template = load_prompt()
+    data_text = json.dumps(specializations, indent=2, ensure_ascii=False)
+    return template.replace("{DOCTOR_DATA}", data_text)
+
+#----------------------------------------------
+
 class MyVoiceAgent(Agent):
-    def __init__(self):
-        with open("prompt.txt", "r", encoding="utf-8") as f:
-            instructions = f.read()
-        
+    def __init__(self, specializations: dict):
+        self.specializations = specializations
+        instructions = build_prompt(specializations=specializations)
+
         super().__init__(
             instructions=instructions,
+            tools=[self.get_doctor_info]
         )
 
+    @function_tool
+    def get_doctor_info(self, doctor_id: str) -> str:
+        """Get full information about a specific doctor by their doctor_id. Call this when the caller asks about a specific doctor."""
+        path = f"doctors/{doctor_id}.json"
+        if not os.path.exists(path):
+            return f"No information found for doctor_id: {doctor_id}"
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return json.dumps(data, indent=2, ensure_ascii=False)
+
     async def on_enter(self) -> None:
-        await self.session.say("Hello! I'm Aria, your real-time assistant. How can I help you today?")
+        await self.session.say(
+            "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
+            "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
+        )
 
     async def on_exit(self) -> None:
-        await self.session.say("Goodbye! It was great talking with you!")
+        await self.session.say("Thank you for calling Medoria. Have a great day, take care!")
+
+           
+
+        
+
+        
 
 async def start_session(context: JobContext):
+    specialization = load_specializations()
     model = GeminiRealtime(
         model="gemini-3.1-flash-live-preview",
         api_key=os.getenv("GOOGLE_API_KEY"),
@@ -35,9 +74,11 @@ async def start_session(context: JobContext):
         ),
     )
     pipeline = Pipeline(llm=model)
-    session = AgentSession(agent=MyVoiceAgent(), pipeline=pipeline)
+    agent = MyVoiceAgent(specializations=specialization)
+    session = AgentSession(agent=agent, pipeline=pipeline)
 
     await context.run_until_shutdown(session=session, wait_for_participant=True)
+    
     
 
 
