@@ -40,21 +40,15 @@ class MyVoiceAgent(Agent):
     @function_tool
     def get_doctor_info(self, doctor_id: str) -> str:
         """Get full information about a specific doctor by their doctor_id. Call this when the caller asks about a specific doctor."""
+        logging.info(f"get_doctor_info called with doctor_id: {doctor_id}")
         path = f"doctors/{doctor_id}.json"
         if not os.path.exists(path):
+            logging.error(f"Doctor file not found: {path}")
             return f"No information found for doctor_id: {doctor_id}"
         with open(path, "r", encoding="utf-8") as f:
             data = json.load(f)
+        logging.info(f"Doctor data loaded successfully for: {doctor_id}")
         return json.dumps(data, indent=2, ensure_ascii=False)
-
-    async def on_enter(self) -> None:
-        await self.session.say(
-            "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
-            "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
-        )
-
-    async def on_exit(self) -> None:
-        await self.session.say("Thank you for calling Medoria. Have a great day, take care!")
 
            
 
