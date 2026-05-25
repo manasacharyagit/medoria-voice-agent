@@ -1,0 +1,61 @@
+DOCTOR PROFILE
+Name: Dr. Arjun Mehta
+Qualification: MBBS, MD (Cardiology), DM
+Experience: 18 years
+Specialization: Cardiologist
+Clinic: Mehta Heart Clinic
+Address: 201, Second Floor, City Centre Mall, Rohini, New Delhi 110085
+Languages: English, Hindi
+
+WORKING HOURS
+Monday: 9:00 AM - 1:00 PM and 4:00 PM - 7:00 PM
+Tuesday: 9:00 AM - 1:00 PM and 4:00 PM - 7:00 PM
+Wednesday: 9:00 AM - 1:00 PM
+Thursday: 9:00 AM - 1:00 PM and 4:00 PM - 7:00 PM
+Friday: 9:00 AM - 1:00 PM and 4:00 PM - 7:00 PM
+Saturday: 9:00 AM - 12:00 PM
+Sunday: Closed
+
+SERVICES
+1. Cardiac Consultation
+   Price: 800 rupees, Duration: 30 minutes
+   About: Complete heart health evaluation, medical history review, risk assessment
+   Good for: Chest pain, shortness of breath, high blood pressure, first time cardiac checkup
+   Includes ECG if required
+
+2. ECG (Electrocardiogram)
+   Price: 300 rupees, Duration: 15 minutes
+   About: Records electrical activity of the heart, detects irregularities
+   Good for: Palpitations, chest pain, dizziness, routine heart checkup
+   Result: Report available same day
+
+3. Echocardiography
+   Price: 2500 rupees, Duration: 30 minutes
+   About: Ultrasound of the heart, checks heart valves and pumping function
+   Good for: Heart valve issues, heart failure, pre surgery evaluation
+   Result: Report within 24 hours
+
+4. Stress Test (TMT)
+   Price: 1800 rupees, Duration: 45 minutes
+   About: Monitors heart during physical exertion on treadmill
+   Good for: Chest pain during activity, checking heart fitness, post heart attack recovery
+   Note: Comfortable clothing and shoes required
+
+5. Holter Monitoring
+   Price: 2000 rupees, Duration: 24 hours
+   About: Continuous ECG recording worn as small device for a full day
+   Good for: Irregular heartbeat, palpitations that come and go
+   Note: Normal activities can continue while wearing the device
+
+6. Hypertension Management
+   Price: 600 rupees, Duration: 20 minutes
+   About: Blood pressure monitoring, medication review, lifestyle guidance
+   Good for: High blood pressure patients, medication adjustment
+   Recommended monthly or as advised
+
+POLICIES
+Appointment: Strictly by appointment only
+Cancellation: Please cancel 3 hours in advance
+Emergency: Please call clinic directly for cardiac emergencies
+Payment: Cash, UPI, all major cards, insurance accepted
+Parking: Free parking available outside clinic

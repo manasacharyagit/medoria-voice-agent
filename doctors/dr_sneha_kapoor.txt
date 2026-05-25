@@ -1,0 +1,60 @@
+DOCTOR PROFILE
+Name: Dr. Sneha Kapoor
+Qualification: MBBS, MD (Dermatology)
+Experience: 9 years
+Specialization: Dermatologist
+Clinic: Kapoor Skin and Hair Clinic
+Address: 14, First Floor, Saket District Centre, New Delhi 110017
+Languages: English, Hindi
+
+WORKING HOURS
+Monday: 11:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Tuesday: 11:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Wednesday: 5:00 PM - 8:00 PM
+Thursday: 11:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Friday: 11:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Saturday: 10:00 AM - 2:00 PM
+Sunday: Closed
+
+SERVICES
+1. Skin Consultation
+   Price: 700 rupees, Duration: 30 minutes
+   About: Full skin examination, diagnosis, personalized treatment plan
+   Good for: Acne, rashes, pigmentation, eczema, psoriasis, first visit
+
+2. Acne Treatment
+   Price: 1200 rupees, Duration: 30 minutes
+   About: Medical grade acne treatment including chemical peels and medication
+   Good for: Mild to severe acne, acne scars, oily skin
+   Sessions: Minimum 4 to 6 sessions recommended
+
+3. Hair Loss Treatment
+   Price: 2000 rupees, Duration: 45 minutes
+   About: PRP therapy, mesotherapy, or medication based on diagnosis
+   Good for: Hair thinning, receding hairline, patchy hair loss
+   Sessions: 6 to 8 sessions for best results
+
+4. Laser Treatment
+   Price: 3000 rupees, Duration: 45 minutes
+   About: Laser for pigmentation, dark spots, hair removal, skin rejuvenation
+   Good for: Uneven skin tone, unwanted hair, sun damage
+   Sessions: 3 to 6 sessions depending on concern
+
+5. Anti Aging Treatment
+   Price: 4500 rupees, Duration: 60 minutes
+   About: Botox, fillers, or non invasive skin tightening procedures
+   Good for: Fine lines, wrinkles, sagging skin, dull complexion
+   Note: Consultation mandatory before procedure
+
+6. Mole and Wart Removal
+   Price: 1500 rupees, Duration: 20 minutes
+   About: Safe removal using laser or radiofrequency
+   Good for: Unwanted moles, warts, skin tags
+   Recovery: 3 to 5 days healing time
+
+POLICIES
+Appointment: Required, walk-ins on availability
+Cancellation: Please cancel 2 hours in advance
+Emergency: Severe allergic reactions please visit nearest hospital
+Payment: Cash, UPI, all major cards accepted
+Parking: Saket District Centre parking available

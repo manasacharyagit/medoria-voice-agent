@@ -2,23 +2,27 @@
   "specializations": {
     "dentist": {
       "display_name": "Dentist",
-      "keywords": ["dentist", "teeth", "tooth", "dental", "gums", "braces", "cavity"],
-      "doctors": ["dr_priya_sharma"]
+      "doctors": [
+        { "id": "dr_priya_sharma", "name": "Dr. Priya Sharma" }
+      ]
     },
     "cardiologist": {
       "display_name": "Cardiologist",
-      "keywords": ["cardiologist", "heart", "cardiac", "chest pain", "blood pressure", "ecg"],
-      "doctors": ["dr_arjun_mehta"]
+      "doctors": [
+        { "id": "dr_arjun_mehta", "name": "Dr. Arjun Mehta" }
+      ]
     },
     "dermatologist": {
       "display_name": "Dermatologist",
-      "keywords": ["dermatologist", "skin", "hair", "acne", "rash", "laser"],
-      "doctors": ["dr_sneha_kapoor"]
+      "doctors": [
+        { "id": "dr_sneha_kapoor", "name": "Dr. Sneha Kapoor" }
+      ]
     },
     "orthopedic": {
       "display_name": "Orthopedic",
-      "keywords": ["orthopedic", "bone", "joint", "fracture", "knee", "back pain", "sports injury"],
-      "doctors": ["dr_vikram_singh"]
+      "doctors": [
+        { "id": "dr_vikram_singh", "name": "Dr. Vikram Singh" }
+      ]
     }
   }
 }

@@ -1,0 +1,70 @@
+DOCTOR PROFILE
+Name: Dr. Priya Sharma
+Qualification: BDS, MDS (Orthodontics)
+Experience: 12 years
+Specialization: Dentist
+Clinic: Sharma Dental Care
+Address: Shop 4, Ground Floor, Ansal Plaza, Sector 23, Gurugram, Haryana 122017
+Languages: English, Hindi
+
+WORKING HOURS
+Monday: 10:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Tuesday: 10:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Wednesday: 10:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Thursday: 10:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Friday: 10:00 AM - 2:00 PM and 5:00 PM - 8:00 PM
+Saturday: 10:00 AM - 3:00 PM
+Sunday: Closed
+
+SERVICES
+1. Dental Checkup and Cleaning
+   Price: 500 rupees, Duration: 45 minutes
+   About: Full mouth examination, plaque removal, teeth polishing, X-ray if needed
+   Good for: Routine checkup, first time patients, bad breath, bleeding gums
+   Recommended every 6 months
+
+2. Teeth Whitening
+   Price: 3500 rupees, Duration: 60 minutes
+   About: Professional grade bleaching, removes stains from tea, coffee, smoking
+   Good for: Yellow or stained teeth, before weddings, confidence boost
+   Result: 4 to 6 shades whiter, lasts 1 to 2 years
+
+3. Braces and Aligners
+   Duration: 12 to 18 months
+   Price: Metal braces 25000 rupees, Ceramic braces 35000 rupees, Clear aligners 55000 rupees
+   About: Corrects crooked, crowded, or misaligned teeth
+   Good for: Teens and adults both
+   First visit includes consultation, X-ray and treatment plan
+
+4. Root Canal Treatment
+   Price: 4000 to 6000 rupees per tooth, Duration: 60 to 90 minutes per session
+   Sessions needed: 1 to 2 sessions
+   About: Removes infected pulp, seals the tooth, saves tooth from extraction
+   Good for: Severe toothache, tooth sensitivity, swollen gums, deep decay
+   Note: Painless with modern anesthesia
+
+5. Tooth Extraction
+   Price: Simple extraction 500 to 800 rupees, Wisdom tooth 1500 to 2500 rupees
+   Duration: 20 to 40 minutes
+   About: Removal of damaged, decayed or wisdom teeth
+   Good for: Severely damaged teeth, impacted wisdom teeth, overcrowding
+   Recovery: 2 to 3 days rest recommended
+
+6. Dental Implants
+   Price: 25000 to 35000 rupees per implant, Duration: 3 to 6 months full process
+   About: Titanium screw placed in jawbone, acts as artificial tooth root, crown placed on top
+   Good for: Missing teeth, denture alternative, permanent solution
+   Advantage: Looks and feels like real tooth
+
+7. Pediatric Dentistry
+   Price: 400 to 800 rupees, Duration: 30 to 45 minutes
+   About: Child friendly checkups, fluoride treatment, cavity filling, sealants to prevent cavities
+   Good for: Children aged 3 to 15
+   Special: Kid friendly environment, no scary tools visible
+
+POLICIES
+Appointment: Required, walk-ins subject to availability
+Cancellation: Please cancel 2 hours in advance
+Emergency: Same day appointments for severe pain
+Payment: Cash, UPI, all major cards accepted
+Parking: Available in Ansal Plaza basement
