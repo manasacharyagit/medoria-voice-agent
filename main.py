@@ -38,7 +38,7 @@ class MyVoiceAgent(Agent):
         )
 
     @function_tool
-    def get_doctor_info(self, doctor_id: str) -> str:
+    async def get_doctor_info(self, doctor_id: str) -> str:
         """Get full information about a specific doctor by their doctor_id. Call this when the caller asks about a specific doctor."""
         logging.info(f"get_doctor_info called with doctor_id: {doctor_id}")
         path = f"doctors/{doctor_id}.json"
