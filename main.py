@@ -38,21 +38,17 @@ class MyVoiceAgent(Agent):
         )
 
     @function_tool
-    async def get_doctor_info(self, doctor_id: str) -> str:
+    async def get_doctor_info(self, doctor_id: str) -> dict:
         """Get full information about a specific doctor by their doctor_id. Call this when the caller asks about a specific doctor."""
         logging.info(f"get_doctor_info called with doctor_id: {doctor_id}")
-
-        normalized = doctor_id.lower().replace(" ", "_").replace(".", "")
-        path = f"doctors/{normalized}.txt"
-
+        path = f"doctors/{doctor_id}.txt"
         if not os.path.exists(path):
             logging.error(f"Doctor file not found: {path}")
-            return f"No information found for doctor_id: {doctor_id}"
-        
+            return {"info": f"No information found for doctor_id: {doctor_id}"}
         with open(path, "r", encoding="utf-8") as f:
             data = f.read()
         logging.info(f"Doctor data loaded successfully for: {doctor_id}")
-        return data
+        return {"info": data}
 
     async def on_enter(self) -> None:
         await self.session.say(
