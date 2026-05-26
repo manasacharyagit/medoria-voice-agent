@@ -1,5 +1,7 @@
 DOCTOR PROFILE
 Name: Dr. Arjun Mehta
+Email: manas.acharya@medoria.ai
+Calendar ID: manas.acharya@medoria.ai
 Qualification: MBBS, MD (Cardiology), DM
 Experience: 18 years
 Specialization: Cardiologist

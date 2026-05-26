@@ -1,5 +1,7 @@
 DOCTOR PROFILE
 Name: Dr. Sneha Kapoor
+Email: manas.acharya@medoria.ai
+Calendar ID: manas.acharya@medoria.ai
 Qualification: MBBS, MD (Dermatology)
 Experience: 9 years
 Specialization: Dermatologist

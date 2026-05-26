@@ -1,5 +1,7 @@
 DOCTOR PROFILE
 Name: Dr. Priya Sharma
+Email: manas.acharya@medoria.ai
+Calendar ID: manas.acharya@medoria.ai
 Qualification: BDS, MDS (Orthodontics)
 Experience: 12 years
 Specialization: Dentist

@@ -1,5 +1,7 @@
 DOCTOR PROFILE
 Name: Dr. Vikram Singh
+Email: manas.acharya@medoria.ai
+Calendar ID: manas.acharya@medoria.ai
 Qualification: MBBS, MS (Orthopedics)
 Experience: 15 years
 Specialization: Orthopedic
