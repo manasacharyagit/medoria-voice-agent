@@ -1,6 +1,7 @@
 import os
 import base64
 import logging
+import json
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.base import MIMEBase
@@ -17,9 +18,11 @@ SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 
 def get_gmail_service():
-    credentials = service_account.Credentials.from_service_account_file(
-        SERVICE_ACCOUNT_FILE, scopes=SCOPES
-    ).with_subject(SENDER_EMAIL)
+    service_account_info = json.loads(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))
+    credentials = service_account.Credentials.from_service_account_info(
+    service_account_info, scopes=SCOPES
+).with_subject(SENDER_EMAIL)
+    
     service = build("gmail", "v1", credentials=credentials)
     return service
 
