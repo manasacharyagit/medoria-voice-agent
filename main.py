@@ -141,16 +141,17 @@ class MyVoiceAgent(Agent):
                 "message": "Appointment booked but email sending failed. Please note the details."
             }
 
-        async def on_enter(self) -> None:
-            await self.session.say(
-                "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
-                "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
-            )
 
-        async def on_exit(self) -> None:
-            await self.session.say("Thank you for calling Medoria. Have a great day, take care!")
+    
 
-           
+    async def on_enter(self) -> None:
+        await self.session.say(
+        "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
+        "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
+    )
+
+    async def on_exit(self) -> None:
+        await self.session.say("Thank you for calling Medoria. Have a great day, take care!")
 
         
 async def start_session(context: JobContext):
