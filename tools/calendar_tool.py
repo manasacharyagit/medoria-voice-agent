@@ -15,8 +15,9 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
 
 def get_calendar_service():
+    service_account_info = json.loads(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))  # ← parse first
     credentials = service_account.Credentials.from_service_account_info(
-        os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"), 
+        service_account_info,
         scopes=SCOPES
     )
     service = build("calendar", "v3", credentials=credentials)
@@ -30,19 +31,23 @@ def extract_calendar_id(doctor_data: str) -> str:
     return None
 
 def check_slot_availability(calendar_id: str, date_str: str, time_str: str, duration_minutes: int = 30) -> bool:
-    """
-    Check if a slot is available on the doctor's calendar.
-    Returns True if available, False if already booked.
-    """
+    print("ENTERED check_slot_availability")
     try:
+        print("Building service...")
         service = get_calendar_service()
+        print("Service built:", type(service))
+
 
         # Parse date and time
+        print("Parsing datetime...")
         start_dt = datetime.strptime(f"{date_str} {time_str}", "%Y-%m-%d %H:%M")
         start_dt = IST.localize(start_dt)
         end_dt = start_dt + timedelta(minutes=duration_minutes)
+        print("Time range:", start_dt.isoformat(), end_dt.isoformat())
+
 
         # Check for existing events in that time window
+        print("Calling calendar API...")
         events_result = service.events().list(
             calendarId=calendar_id,
             timeMin=start_dt.isoformat() ,
@@ -51,7 +56,11 @@ def check_slot_availability(calendar_id: str, date_str: str, time_str: str, dura
             orderBy="startTime"
         ).execute()
 
+        print("Result type:", type(events_result))
+        print("Result:", events_result)
+
         events = events_result.get("items", [])
+        print("Events:", events)
 
         if events:
             logging.info(f"Slot {date_str} {time_str} is already booked")
