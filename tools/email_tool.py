@@ -18,7 +18,7 @@ SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
 SENDER_EMAIL = os.getenv("SENDER_EMAIL")
 
 def get_gmail_service():
-    credentials = service_account.Credentials.from_service_account_file(
+    credentials = service_account.Credentials.from_service_account_info(
         os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"),
         scopes=SCOPES
     ).with_subject(SENDER_EMAIL)

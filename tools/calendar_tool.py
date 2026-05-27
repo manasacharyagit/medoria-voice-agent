@@ -15,7 +15,7 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
 
 def get_calendar_service():
-    credentials = service_account.Credentials.from_service_account_file(
+    credentials = service_account.Credentials.from_service_account_info(
         os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"), 
         scopes=SCOPES
     )
