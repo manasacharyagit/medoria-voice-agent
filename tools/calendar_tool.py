@@ -1,7 +1,8 @@
 import os
 import json
 import re
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
+import pytz
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from dotenv import load_dotenv
@@ -9,15 +10,15 @@ import logging
 import json
 
 load_dotenv()
-
+IST = pytz.timezone("Asia/Kolkata") 
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
 SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
 
 def get_calendar_service():
-    service_account_info = json.loads(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))
-    credentials = service_account.Credentials.from_service_account_info(
-    service_account_info, scopes=SCOPES
-)
+    credentials = service_account.Credentials.from_service_account_file(
+        os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE"), 
+        scopes=SCOPES
+    )
     service = build("calendar", "v3", credentials=credentials)
     return service
 
@@ -38,13 +39,14 @@ def check_slot_availability(calendar_id: str, date_str: str, time_str: str, dura
 
         # Parse date and time
         start_dt = datetime.strptime(f"{date_str} {time_str}", "%Y-%m-%d %H:%M")
+        start_dt = IST.localize(start_dt)
         end_dt = start_dt + timedelta(minutes=duration_minutes)
 
         # Check for existing events in that time window
         events_result = service.events().list(
             calendarId=calendar_id,
-            timeMin=start_dt.isoformat() + "Z",
-            timeMax=end_dt.isoformat() + "Z",
+            timeMin=start_dt.isoformat() ,
+            timeMax=end_dt.isoformat() ,
             singleEvents=True,
             orderBy="startTime"
         ).execute()
