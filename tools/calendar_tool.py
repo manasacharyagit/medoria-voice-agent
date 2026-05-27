@@ -15,11 +15,11 @@ SCOPES = ["https://www.googleapis.com/auth/calendar"]
 SERVICE_ACCOUNT_FILE = os.getenv("GOOGLE_SERVICE_ACCOUNT_FILE")
 
 def get_calendar_service():
-    service_account_info = json.loads(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))  # ← parse first
+    service_account_info = json.loads(os.getenv("GOOGLE_SERVICE_ACCOUNT_JSON"))
     credentials = service_account.Credentials.from_service_account_info(
         service_account_info,
         scopes=SCOPES
-    )
+    ).with_subject(os.getenv("SENDER_EMAIL"))  # ← add this, impersonate the user
     service = build("calendar", "v3", credentials=credentials)
     return service
 
