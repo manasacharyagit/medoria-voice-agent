@@ -10,10 +10,30 @@ import logging
 # Add these two lines after existing imports
 from tools.calendar_tool import check_slot_availability, book_appointment, extract_calendar_id
 from tools.email_tool import send_appointment_email
-
+from tools.transcript_manager import TranscriptManager
 logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
+
+transcript = TranscriptManager()
+
+class TranscriptLogHandler(logging.Handler):
+    def emit(self, record):
+        msg = record.getMessage()
+        if "user input speech:" in msg:
+            text = msg.split("user input speech:")[-1].strip()
+            transcript.add_user(text)
+        elif "agent output speech:" in msg:
+            text = msg.split("agent output speech:")[-1].strip()
+            transcript.add_agent(text)
+        elif "Audio stream enabled for participant:" in msg:
+            # This line contains the phone number
+            phone = msg.split("Audio stream enabled for participant:")[-1].strip()
+            transcript.set_phone_number(phone)
+
+logging.basicConfig(level=logging.INFO)
+logging.getLogger("videosdk.agents.metrics.metrics_collector").addHandler(TranscriptLogHandler())
+logging.getLogger("videosdk.agents.room.room").addHandler(TranscriptLogHandler())
 
 #-----Data loading fucntions--
 
