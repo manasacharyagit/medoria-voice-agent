@@ -146,7 +146,7 @@ class MyVoiceAgent(Agent):
     
 
     async def on_enter(self) -> None:
-
+        await asyncio.sleep(0.5)
         try:
             for pid, participant in self.session.room.remote_participants.items():
                 self.caller_number = participant.identity
