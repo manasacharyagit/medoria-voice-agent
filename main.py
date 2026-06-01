@@ -35,6 +35,7 @@ def build_prompt(specializations: dict):
 class MyVoiceAgent(Agent):
     def __init__(self, specializations: dict):
         self.specializations = specializations
+        self.caller_number = "unknown"
         instructions = build_prompt(specializations=specializations)
 
         super().__init__(
@@ -145,6 +146,16 @@ class MyVoiceAgent(Agent):
     
 
     async def on_enter(self) -> None:
+
+        try:
+            for pid, participant in self.session.room.remote_participants.items():
+                self.caller_number = participant.identity
+                logging.info(f"📞 Call from: {self.caller_number}")
+                break
+        except Exception as e:
+            self.caller_number = "unknown"
+            logging.error(f"Could not get caller number: {e}")
+
         await self.session.say(
         "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
         "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
