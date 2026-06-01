@@ -10,7 +10,6 @@ import logging
 # Add these two lines after existing imports
 from tools.calendar_tool import check_slot_availability, book_appointment, extract_calendar_id
 from tools.email_tool import send_appointment_email
-from tools.transcript_manager import create_transcript, write_transcript_line
 
 logging.basicConfig(level=logging.INFO)
 
@@ -146,7 +145,6 @@ class MyVoiceAgent(Agent):
     
 
     async def on_enter(self) -> None:
-
         await self.session.say(
         "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
         "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
@@ -158,12 +156,6 @@ class MyVoiceAgent(Agent):
         
 async def start_session(context: JobContext):
     specialization = load_specializations()
-
-    caller_number = "unknown"
-    for _, participant in context.room.remote_participants.items():
-        caller_number = participant.identity
-        logging.info(f"📞 Incoming call from: {caller_number}")
-        break
 
     
     model = GeminiRealtime(
@@ -178,18 +170,6 @@ async def start_session(context: JobContext):
     pipeline = Pipeline(llm=model)
     agent = MyVoiceAgent(specializations=specialization)
     session = AgentSession(agent=agent, pipeline=pipeline)
-
-    transcript_path = create_transcript(caller_number)
-
-    # Hook into pipeline for transcripts
-    @pipeline.on("user_turn_start")
-    async def on_user_turn(transcript: str):
-        write_transcript_line(transcript_path, "user", transcript)
-
-    @pipeline.on("llm")
-    async def on_llm(data: dict):
-        text = data.get("text", "")
-        write_transcript_line(transcript_path, "assistant", text)
 
     await context.run_until_shutdown(session=session, wait_for_participant=True)
     
