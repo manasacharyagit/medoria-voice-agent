@@ -35,7 +35,6 @@ def build_prompt(specializations: dict):
 class MyVoiceAgent(Agent):
     def __init__(self, specializations: dict):
         self.specializations = specializations
-        self.caller_number = "unknown"
         instructions = build_prompt(specializations=specializations)
 
         super().__init__(
@@ -146,15 +145,26 @@ class MyVoiceAgent(Agent):
     
 
     async def on_enter(self) -> None:
-        await asyncio.sleep(0.5)
+        
         try:
-            for pid, participant in self.session.room.remote_participants.items():
-                self.caller_number = participant.identity
-                logging.info(f"📞 Call from: {self.caller_number}")
-                break
+            # 1. Check if the participant is already there (sometimes they are)
+            if self.session.room.remote_participants:
+                for pid, participant in self.session.room.remote_participants.items():
+                    self.caller_number = participant.identity
+                    logging.info(f"📞 Call from (Immediate): {self.caller_number}")
+                    break
+            else:
+                # 2. If not, listen for them to join asynchronously without blocking the greeting
+                logging.info("Waiting for caller identity to sync...")
+                
+                @self.session.room.on("participant-joined")
+                def on_participant_joined(participant):
+                    self.caller_number = participant.identity
+                    logging.info(f"📞 Call from (Event): {self.caller_number}")
+
         except Exception as e:
             self.caller_number = "unknown"
-            logging.error(f"Could not get caller number: {e}")
+            logging.error(f"Error setting up participant tracking: {e}")
 
         await self.session.say(
         "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
