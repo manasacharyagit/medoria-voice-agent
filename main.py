@@ -33,8 +33,9 @@ def build_prompt(specializations: dict):
 #----------------------------------------------
 
 class MyVoiceAgent(Agent):
-    def __init__(self, specializations: dict):
+    def __init__(self, specializations: dict, caller_number: str = "unknown"):
         self.specializations = specializations
+        self.caller_number = caller_number
         instructions = build_prompt(specializations=specializations)
 
         super().__init__(
@@ -155,10 +156,14 @@ class MyVoiceAgent(Agent):
 
         
 async def start_session(context: JobContext):
-
-    
-
     specialization = load_specializations()
+
+    caller_number = "unknown"
+    for participant_id, participant in context.room.remote_participants.items():
+        caller_number = participant.identity
+        logging.info(f"📞 Incoming call from: {caller_number}")
+        break
+
     model = GeminiRealtime(
         model="gemini-2.5-flash-native-audio-preview-12-2025",
         api_key=os.getenv("GOOGLE_API_KEY"),
@@ -169,7 +174,7 @@ async def start_session(context: JobContext):
         ),
     )
     pipeline = Pipeline(llm=model)
-    agent = MyVoiceAgent(specializations=specialization)
+    agent = MyVoiceAgent(specializations=specialization, caller_number=caller_number)
     session = AgentSession(agent=agent, pipeline=pipeline)
 
     await context.run_until_shutdown(session=session, wait_for_participant=True)
