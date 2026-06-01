@@ -156,6 +156,8 @@ class MyVoiceAgent(Agent):
         
 async def start_session(context: JobContext):
     specialization = load_specializations()
+
+    logging.info(f"📞 New call started - Room: {context.room.name}")
     model = GeminiRealtime(
         model="gemini-2.5-flash-native-audio-preview-12-2025",
         api_key=os.getenv("GOOGLE_API_KEY"),
