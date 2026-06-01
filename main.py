@@ -145,6 +145,13 @@ class MyVoiceAgent(Agent):
     
 
     async def on_enter(self) -> None:
+
+        participants = self.session.room.remote_participants
+        for participant_id, participant in participants.items():
+            caller_number = participant.identity
+            logging.info(f"📞 Call from: {caller_number}")
+            break
+
         await self.session.say(
         "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
         "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
