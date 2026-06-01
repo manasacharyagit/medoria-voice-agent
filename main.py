@@ -145,16 +145,6 @@ class MyVoiceAgent(Agent):
     
 
     async def on_enter(self) -> None:
-
-        try:
-            participants = self.session.room.remote_participants
-            for participant_id, participant in participants.items():
-                caller_number = participant.identity
-                logging.info(f"📞 Call from: {caller_number}")
-                break
-        except Exception as e:
-            logging.error(f"Could not fetch caller number: {e}")
-
         await self.session.say(
         "Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. "
         "Are you looking for a specific doctor, or can I help you find the right specialist for your concern?"
