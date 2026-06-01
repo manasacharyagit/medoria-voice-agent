@@ -15,25 +15,6 @@ logging.basicConfig(level=logging.INFO)
 
 load_dotenv()
 
-transcript = TranscriptManager()
-
-class TranscriptLogHandler(logging.Handler):
-    def emit(self, record):
-        msg = record.getMessage()
-        if "user input speech:" in msg:
-            text = msg.split("user input speech:")[-1].strip()
-            transcript.add_user(text)
-        elif "agent output speech:" in msg:
-            text = msg.split("agent output speech:")[-1].strip()
-            transcript.add_agent(text)
-        elif "Audio stream enabled for participant:" in msg:
-            # This line contains the phone number
-            phone = msg.split("Audio stream enabled for participant:")[-1].strip()
-            transcript.set_phone_number(phone)
-
-logging.basicConfig(level=logging.INFO)
-logging.getLogger("videosdk.agents.metrics.metrics_collector").addHandler(TranscriptLogHandler())
-logging.getLogger("videosdk.agents.room.room").addHandler(TranscriptLogHandler())
 
 #-----Data loading fucntions--
 
@@ -175,6 +156,29 @@ class MyVoiceAgent(Agent):
 
         
 async def start_session(context: JobContext):
+
+    # Create fresh transcript for this call
+    from tools.transcript_manager import TranscriptManager
+    call_transcript = TranscriptManager()
+
+    # Hook into logging inside this process
+    class CallTranscriptHandler(logging.Handler):
+        def emit(self, record):
+            msg = record.getMessage()
+            if "user input speech:" in msg:
+                text = msg.split("user input speech:")[-1].strip()
+                call_transcript.add_user(text)
+            elif "agent output speech:" in msg:
+                text = msg.split("agent output speech:")[-1].strip()
+                call_transcript.add_agent(text)
+            elif "Audio stream enabled for participant:" in msg:
+                phone = msg.split("Audio stream enabled for participant:")[-1].strip()
+                call_transcript.set_phone_number(phone)
+
+    handler = CallTranscriptHandler()
+    logging.getLogger("videosdk.agents.metrics.metrics_collector").addHandler(handler)
+    logging.getLogger("videosdk.agents.room.room").addHandler(handler)
+
     specialization = load_specializations()
 
     
@@ -191,7 +195,10 @@ async def start_session(context: JobContext):
     agent = MyVoiceAgent(specializations=specialization)
     session = AgentSession(agent=agent, pipeline=pipeline)
 
-    await context.run_until_shutdown(session=session, wait_for_participant=True)
+    try:
+        await context.run_until_shutdown(session=session, wait_for_participant=True)
+    finally:
+        call_transcript.save()
     
     
 
