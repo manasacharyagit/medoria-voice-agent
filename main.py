@@ -156,10 +156,7 @@ class MyVoiceAgent(Agent):
         
 async def start_session(context: JobContext):
 
-    @context.room.on("participant_joined")
-    def on_participant_joined(participant):
-        logging.info(f"📞 INCOMING CALL FROM: {participant.identity}")
-        print(f"📞 INCOMING CALL FROM: {participant.identity}")
+    
 
     specialization = load_specializations()
     model = GeminiRealtime(
