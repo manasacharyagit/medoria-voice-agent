@@ -1,0 +1,19 @@
+Call Date: 2026-06-06 13:30:06
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Yeah, he's spoken a point.
+Aria: I would be happy to help you book an appointment with Dr. Arjun Mehta. May I have your full name, please?
+User: Mass means mass
+Aria: Thank you. May I have your email address so I can send you the appointment details?
+User: Mitra Sir were to add the report
+Aria: Could you please spell out your email address for me, letter by letter, so I can make sure I have it exactly right?
+User: retail.agcg.com
+Aria: Could you please spell that out for me letter by letter, including the "at" symbol and any dots, just so I can be absolutely sure I have it right?
+User: is NH 1102 made out of?
+Aria: I'm sorry, I didn't quite catch that. Could you please spell out your email address for me letter by letter? That will help me make sure we get your appointment details sent to the right place.
+User: Sure, M A S A B I, I reload.
+Aria: Thank you, I have "M A S A B I" so far. Could you please spell the rest of the email address for me, letter by letter?
+User: Hmm
+Aria: Please take your time. Could you spell the rest of your email address for me, starting from after "M A S A B I"?
+Aria: Thank you for calling Medoria. Have a great day, take care!

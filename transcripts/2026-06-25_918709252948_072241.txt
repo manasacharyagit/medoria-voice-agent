@@ -1,0 +1,37 @@
+Call Date: 2026-06-25 07:22:41
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hey, I just found a book on employment for me.
+Aria: I'm sorry, I think there might be a misunderstanding! I'm the assistant for Dr. Arjun Mehta's clinic. I can help you with scheduling appointments for heart consultations, ECGs, or other cardiac services.
+
+Were you looking to book an appointment with Dr. Mehta, or perhaps you had a question about his services?
+User: Can you book an appointment for me?
+Aria: Certainly! I can help you with that. May I have your full name, please?
+User: Manas Acharya
+Aria: It's nice to meet you, Manas. I can certainly help you with that.
+
+Shall I text the appointment details to the number you're calling from, which is +918709252948?
+User: Yes
+Aria: Great. And what would you like to come in for today, and what date and time would work best for you?
+User: I would like to come in for cardiac consultation today at 2 PM.
+Aria: Done! I have booked your cardiac consultation for today, June 25th, at 2:00 PM. You will receive a confirmation SMS shortly with all the appointment details. Is there anything else I can help you with?
+User: Uh, yeah, can you cancel an appointment for me?
+Aria: I can help with that. Are you looking to cancel the appointment for the same number, +918709252948? And could you please tell me the date of the appointment you'd like to cancel?
+User: Sorry, my bad. I would like to reschedule the appointment actually.
+Aria: No problem at all! I can help you with that.
+
+Just to confirm, are we rescheduling the appointment you just made for today, June 25th, at 2:00 PM? And what new date and time would you like to move it to?
+User: I would like to move it to three player.
+Aria: I'm sorry, I didn't quite catch that. Could you please let me know the new date and time you would like to move your appointment to?
+User: I would like to move it to 3 PM.
+Aria: I understand you'd like to move your appointment to 3:00 PM. Just to clarify, would you like to move it to 3:00 PM today, June 25th, or were you thinking of a different date?
+User: Today
+Aria: Done! Your appointment has been moved to today, June 25th, at 3:00 PM. You'll receive a confirmation SMS with the updated details shortly. Is there anything else I can help you with today?
+User: Can you cancel an appointment for me?
+Aria: Certainly. I can help with that. Is the appointment you'd like to cancel also under the number +918709252948, and what is the date of that appointment?
+User: Yes, today is appointment.
+Aria: Done, your appointment for today at 3:00 PM has been cancelled, and you'll get a confirmation SMS shortly. Is there anything else I can help you with?
+User: No, thank you so much.
+Aria: You're very welcome! Have a great day, and feel free to call again if you need anything else. Goodbye!
+Aria: Thank you for calling Medoria. Have a great day, take care!

@@ -1,5 +1,6 @@
 DOCTOR PROFILE
 Name: Dr. Sneha Kapoor
+Phone: +17432508572
 Email: manas.acharya@medoria.ai
 Calendar ID: manas.acharya@medoria.ai
 Qualification: MBBS, MD (Dermatology)

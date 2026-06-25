@@ -1,0 +1,57 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 11:49:03
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment analysis of the call between Manas Acharya and Medoria’s virtual assistant, Aria.
+
+---
+
+### **Medoria Customer Call Analysis Report**
+
+#### **1. Customer Mood**
+Manas started the call in a very **calm, direct, and cooperative** mood. He knew exactly what he wanted—a same-day appointment. 
+
+However, his mood hit a brief speed bump during the email verification process. When asked to spell his email letter-by-letter, he became **impatient and slightly frustrated**. This was triggered by Aria interrupting his flow to confirm "M-A-N-A-S" and then asking for the rest. When Aria questioned a transcription error (confusing "A" with the number "3"), Manas felt rushed, telling Aria to *"have some patience"* and *"Wait, Wait, Wait, Wait."*
+
+Thanks to Aria's calm and reassuring response, Manas's frustration quickly dissolved. By the end of the call, his mood shifted to **curious and highly satisfied**, especially after discovering Aria could speak Hindi. He concluded the call on a warm, pleasant note.
+
+#### **2. Comfort Level**
+Manas showed a **high level of comfort** interacting with the AI. In fact, he treated Aria more like a human receptionist than a robot. 
+
+His comfort is most evident in how he handled the friction point; rather than getting confused or hanging up, he naturally set boundaries (*"No, have some patience"*), expecting the assistant to adapt to his pace. His comfort peaked at the end when he casually asked, *"Arya, can you talk in Hindi?"*—a spontaneous request that showed he felt entirely at ease experimenting with the technology.
+
+#### **3. Query Resolution**
+**100% Resolved.** 
+Manas got exactly what he called for, and more:
+*   His ECG appointment was successfully booked for 5:00 PM today.
+*   He confirmed his email address for the confirmation details.
+*   He received a comprehensive overview of Dr. Arjun Mehta’s clinic services in fluent Hindi, as requested.
+
+#### **4. Confusion Points**
+The main point of confusion—and friction—occurred during the **email spelling segment**. 
+*   **The Trigger:** Aria asked Manas to spell his email. After he spelled "M A N A S," Aria interrupted to confirm it, which broke Manas’s rhythm. When he tried to resume, the system misheard his spelling as starting with the number "3" (*"3CHARYA1702@"*). 
+*   **The Friction:** When Aria tried to clarify if it was an "A" or a "3," Manas felt overwhelmed by the back-and-forth. 
+*   **The Resolution:** Aria’s prompt apology and silence gave Manas the conversational breathing room he needed to clearly state his email in one go.
+
+#### **5. Overall Experience**
+**Rating: 8.5 / 10**
+
+*Why this rating?* 
+This was a highly successful call. While the email verification sequence was clunky and briefly frustrated the customer, the **recovery was textbook perfect**. Aria didn't get stuck in a robotic error loop. Instead, she apologized, stepped back, and listened. 
+
+The highlight of the call was the seamless transition to Hindi. Aria’s Hindi response was natural, polite, and culturally appropriate, turning a routine booking call into an impressive, high-touch customer experience.
+
+---
+
+### **Recommendations for Improvement**
+
+1.  **Optimize the Email Collection Flow:**
+    *   *Instead of interrupting:* Let the user speak or spell the entire email address first. Only ask for letter-by-letter spelling if the system's confidence score is low.
+    *   *If spelling is required:* Don't interrupt mid-spelling. Let the user finish, or guide them with a softer prompt like, *"Got that first part. Please go ahead with the rest whenever you're ready."*
+
+2.  **Adjust the "Patience" Threshold (Turn-Taking Dynamics):**
+    *   When a user says words like *"Wait"* or *"Have patience,"* the AI should instantly increase its pause-threshold (the silence duration before it speaks again). This prevents the AI from interrupting a user who is looking up information or typing on their phone.
+
+3.  **Proactive Language Detection:**
+    *   Since Manas has a South Asian name, if he had struggled with English earlier in the call, Aria could have offered, *"Would you prefer to converse in Hindi?"* Since he asked for it at the end, Aria handled it perfectly, but being proactive for users who struggle in English would be a massive differentiator.

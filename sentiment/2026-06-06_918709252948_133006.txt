@@ -1,0 +1,58 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 13:30:06
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment report analyzing the recent interaction between the virtual assistant, Aria, and the caller.
+
+***
+
+# Call Analysis & Sentiment Report: Aria & Patient Interaction
+
+This call represents a classic example of an "AI loop trap"—where a rigid virtual assistant fails to adapt to a user's confusion, leading to conversational frustration and ultimately, an abandoned call. Here is a breakdown of what went wrong and how we can fix it.
+
+---
+
+### 1. Customer Mood: From Cooperative to Completely Disconnected
+The caller’s mood shifted dramatically throughout this brief interaction, starting with a willing (though heavily garbled) attempt to cooperate and ending in total disengagement.
+* **The Start (Willing but Confused):** The caller began with an intention to book an appointment ("Yeah, he's spoken a point"). Despite the immediate transcription errors, they tried to cooperate.
+* **The Middle (Distracted & Overwhelmed):** As the AI pushed for an email address, the caller's focus shattered. They began throwing out completely unrelated thoughts ("Mitra Sir were to add the report" and "is NH 1102 made out of?"). This suggests they were either highly distracted, dealing with a poor connection, or experiencing cognitive difficulty in keeping up with the machine's demands.
+* **The End (Defeated & Silent):** By the end of the call, after being asked multiple times to spell their email "letter by letter," the caller gave a hesitant, sighed **"Hmm"** and stopped talking entirely, leading to the AI abruptly ending the call.
+
+---
+
+### 2. Comfort Level with the AI: Very Low
+It is highly likely that the caller was incredibly uncomfortable talking to Aria. 
+When humans talk to humans, we naturally adapt to accents, pauses, and off-topic remarks. Aria did none of this. Because the AI insisted on a highly rigid, robotic data-entry format ("spell that out for me letter by letter"), the caller clammed up. The caller’s responses became fragmented, showing a total lack of flow or ease. They did not feel "heard," which made them treat the call more like an frustrating automated test than a helpful conversation with a clinic.
+
+---
+
+### 3. Query Resolution: 0% (Total Failure)
+Unfortunately, this call was a complete failure in terms of resolution. 
+* **The Goal:** The caller wanted to book an appointment with Dr. Arjun Mehta and had a question about adding a medical report. 
+* **The Outcome:** No appointment was booked, no name was successfully captured, the email was never fully entered, the question about the report was completely ignored, and the caller was left with nothing but an abrupt "Have a great day, take care!" exit. 
+
+---
+
+### 4. Major Confusion Points (The Bottlenecks)
+The call transcript reveals severe friction points where the conversation completely broke down:
+* **The "Name" Capture:** When asked for their name, the user said "Mass means mass." This is a massive transcription or speech-to-text (STT) failure (perhaps they said "Yasmin" or "Masood"). Instead of verifying, Aria blindly accepted it and moved on.
+* **Ignoring the "Report" Question:** The caller asked, *"Mitra Sir were to add the report"* (likely asking how to send a medical report to Dr. Mehta). Aria ignored this completely to stay on the email track.
+* **The "NH 1102" Hallucination/Distraction:** Out of nowhere, the user asked, *"is NH 1102 made out of?"* This could have been a severe transcription error or a completely different thought the user muttered aloud. Aria was unable to parse this and simply repeated the email prompt.
+* **The Spelling Loop:** Forcing a user to spell an entire email address "letter by letter" over the phone is notoriously difficult for voice AI. It dragged the call into a dead-end loop that the user ultimately surrendered to ("Hmm").
+
+---
+
+### 5. Overall Experience Rating: 1 / 5 (Poor)
+This was a highly frustrating user experience. While Aria’s tone was polite and cheerful, her behavior was incredibly rigid and robotic. She lacked the conversational intelligence to pause, address the user's side questions (like the report), or realize that the user was struggling with the email spelling. Abruptly ending the call after a brief silence felt cold and dismissive for a medical clinic.
+
+---
+
+### 6. Recommendations for Improvement
+
+To prevent Medoria patients from experiencing this kind of frustration in the future, we recommend implementing the following changes:
+
+* **Implement a "Human Handoff" Trigger:** If the AI fails to capture a critical piece of information (like an email or name) after two attempts, or if the user goes silent with a "Hmm," the system should immediately route the call to a live clinic receptionist.
+* **Enable Omnichannel Fallbacks:** If email capture over voice is failing, Aria should offer an alternative: *"I might have trouble spelling that over the phone. Can I text a link to your phone number so you can type it in?"* This saves the user from the grueling "letter-by-letter" spelling process.
+* **Acknowledge and Pivot (Intent Recognition):** When the user asked about adding a report, Aria should have prioritized that query: *"I can definitely help you upload a report! First, let's get you on the schedule. To do that, I just need your email..."* Acknowledging their side-questions builds trust.
+* **Improve the Timeout/Hang-up Logic:** Instead of immediately saying "Have a great day, take care!" when the user hesitated ("Hmm"), Aria should have prompted gently: *"Are you still there? I'm happy to wait, or I can connect you to the front desk."*

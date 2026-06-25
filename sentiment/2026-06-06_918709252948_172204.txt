@@ -1,0 +1,40 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 17:22:04
+Phone: 918709252948
+========================================
+
+Here is the behavioral and sentiment analysis report for the recent call transcript.
+
+---
+
+# **Medoria Customer Call Analysis Report**
+
+### **1. Customer Mood: Friendly, but Distracted and Disengaged**
+* **Initial Vibe:** The caller started the call in an incredibly warm, polite, and calm mood. Asking *"Hey Arya, How are you?"* showed they were relaxed and highly approachable.
+* **The Shift:** As the call progressed, the customer’s mood shifted from friendly participation to distracted indifference. Because Aria kept pushing casual small talk rather than steering the conversation toward the actual purpose of the call (a medical clinic visit), the caller seemed to lose focus. By the end, they were multitasking (*"Working on a project"*), and their responses became fragmented and brief.
+
+### **2. Comfort Level: High (Almost Too High!)**
+* **The Analysis:** The caller was completely comfortable talking to the AI. In fact, they treated Aria exactly like a human receptionist, engaging in casual banter without any of the typical hesitation, awkward pauses, or stiffness often seen when people realize they are talking to a bot. 
+* **The Catch:** While their comfort level was high, this actually worked against the call's efficiency. Because the caller felt so comfortable chatting, and Aria kept indulging the small talk, the call quickly drifted away from its professional, clinical purpose.
+
+### **3. Query Resolution: A Complete Failure**
+* **Did they get what they called for?** No, absolutely not. 
+* **The Breakdown:** The caller dialed Dr. Arjun Mehta’s clinic, presumably for a medical inquiry, appointment, or prescription. However, they never even got the chance to state why they called. Aria got stuck in a "friendly host" loop, asking about the caller's day and evening plans. The call ended abruptly with Aria saying goodbye, leaving the customer's actual clinical needs completely unaddressed.
+
+### **4. Confusion Points: Speech-to-Text Glitches & Conversational Drift**
+* **Fragmented Inputs:** There were clear moments where the system’s speech-to-text or the caller’s connection faltered. Phrases like *"You just Okay Correct"* and *"Now I'm just Two"* indicate either a lag in the connection, the caller muttering to themselves, or the system failing to transcribe the user correctly.
+* **The AI's Blindspot:** Aria completely ignored these confusing, fragmented responses and simply plowed ahead with generic friendly follow-ups (*"Sometimes a quiet, relaxing day is just what we need"*), highlighting a lack of active listening or error-handling on the AI's part.
+
+### **5. Overall Experience: 1.5 out of 5 Stars**
+* **The Verdict:** While Aria’s tone was incredibly warm, natural, and polite, the overall call experience was highly ineffective. 
+* **Why?** A virtual assistant for a doctor's clinic must strike a balance between empathy and efficiency. Aria behaved like a social companion bot rather than a healthcare assistant. Ending a medical clinic call by asking what kind of project the caller is working on—and then abruptly hanging up—is a major operational failure. 
+
+---
+
+### **6. Recommendations for Improvement**
+
+* **Implement a "Small Talk Guardrail":** Limit social banter to a single exchange. If a customer asks, *"How are you?"*, Aria should respond politely but immediately pivot back to the clinic's purpose. 
+  * *Example:* *"I'm doing great, thank you for asking! How can I help you today with Dr. Mehta's clinic?"*
+* **Fix the Abrupt Termination Trigger:** Investigate why Aria abruptly ended the call (*"Thank you for calling Medoria..."*) right after asking about the project. There appears to be a bug where a lack of medical intent or a specific timeout triggered the closing script prematurely.
+* **Improve Active Listening for Broken Inputs:** When the user said *"You just Okay Correct"*, the AI should have paused to clarify rather than continuing the casual chit-chat. Implementing a gentle clarifying prompt (e.g., *"I didn't quite catch that, did you need to book an appointment today?"*) would keep the call on track.
+* **Align Bot Personality with the Domain:** A healthcare bot needs to prioritize triage and task completion. While being polite is great, being focused and helpful is critical for patients who may be calling with urgent medical needs.

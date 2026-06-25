@@ -1,0 +1,35 @@
+Sentiment Analysis Report
+Call Date: 2026-06-03 17:09:31
+Phone: 918709252948
+========================================
+
+Here is the behavioural and sentiment report for the Medoria customer service call.
+
+***
+
+# Medoria Call Analysis & Sentiment Report
+
+### 1. Customer Mood: Calm & Goal-Oriented
+The caller’s mood throughout this brief interaction was **calm, direct, and polite**. They called with a highly specific informational query rather than an urgent medical issue or a complaint, which naturally kept the emotional stakes low. 
+* **Mood Shift:** There was no major shift in mood because the call was so short. The caller started with a clear, straightforward question and ended with a polite, relaxed decline (“Oh no thanks”) once their curiosity was satisfied. 
+
+### 2. Comfort Level: High and Natural
+The caller seemed **entirely comfortable** interacting with Aria. There was no hesitation, stuttering, or awkward pausing that sometimes happens when users realize they are speaking to an AI agent. The caller spoke to Aria as they would to a human receptionist—asking a direct question and responding naturally to the follow-up prompt. 
+
+### 3. Query Resolution: 100% Resolved
+The caller's primary need was fully addressed in a single turn. They asked for Dr. Vikram Singh’s qualifications, and Aria immediately provided precise details: his degrees (MBBS, MS in Orthopedics) and his tenure (over 15 years of experience). The caller got exactly what they called for without any unnecessary runaround.
+
+### 4. Confusion Points: None
+This was a friction-free call. There were **zero moments of confusion**. The caller did not have to repeat themselves, Aria understood the doctor's name perfectly on the first try, and the caller clearly understood Aria’s prompt at the end, leading to a clean, swift wrap-up.
+
+### 5. Overall Experience: Excellent (5/5)
+From an efficiency standpoint, this call was a massive success. The AI did exactly what it was designed to do: it saved human agents time by handling a basic informational query instantly and accurately. The tone was warm, the information was correct, and the call was completed in under thirty seconds. 
+
+The only incredibly minor detail was Aria's double closing statement at the very end (repeating "Have a wonderful day!" and "Have a great day, take care!" back-to-back), which is a common minor glitch in conversational AI scripting but did not impact the user experience.
+
+### 6. Recommendations for Improvement
+While the call went incredibly well, we can elevate this type of interaction from "efficient" to "delightful" with two small tweaks:
+
+* **Offer a Digital Follow-Up (SMS/Email):** When a user asks about a doctor's qualifications but isn't ready to book, they are likely in the "research phase." Aria could offer to text them a link to the doctor's Medoria profile. 
+  * *Example:* "I can text you a link to Dr. Singh's full bio and patient reviews if you'd like to look it over later. Would that be helpful?"
+* **Clean up the AI Sign-Off:** Aria repeated her goodbye twice at the end. The system prompts should be adjusted so that once the "Have a wonderful day" block is triggered, the second automated "Thank you for calling Medoria..." block doesn't cut in right after, which can sound a bit robotic.

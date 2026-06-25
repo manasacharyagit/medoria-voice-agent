@@ -1,0 +1,11 @@
+Call Date: 2026-06-06 11:34:02
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hello
+Aria: Hello! How can I help you today?
+User: Can you tell me more about Dr. Arjun Mehta?
+Aria: Dr. Arjun Mehta is a highly experienced cardiologist with 18 years of experience. He specializes in heart health and runs the Mehta Heart Clinic in Rohini, New Delhi. He holds MBBS, MD in Cardiology, and DM degrees. 
+
+Are you looking to book an appointment with him, or did you have any specific questions about his services?
+Aria: Thank you for calling Medoria. Have a great day, take care!

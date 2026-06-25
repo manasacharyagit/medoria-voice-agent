@@ -1,0 +1,44 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 11:36:48
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment report for the Medoria customer service call. 
+
+---
+
+# Call Analysis & Sentiment Report: Patient Booking Experience
+
+### **1. Customer Mood: An Emotional Rollercoaster**
+The caller, identified in the transcript as Manas, went through a very distinct emotional arc during this short call:
+*   **Playful & Cooperative (Start):** Manas started the call in a relaxed, almost experimental mood. He casually asked to switch to Hindi, and then immediately asked to switch back to English. He was testing the AI's capabilities and seemed pleased with its quick adaptation.
+*   **Anxious & Insistent (Middle):** As soon as the booking failed, Manas’s tone shifted. Because he wanted an ECG *today* at 5:00 PM (a highly time-sensitive medical test), his anxiety kicked in. He became repetitive, insisting, *"Can you try again? Then you try again. Then you try again."*
+*   **Highly Frustrated & Sarcastic (End):** There is a massive spike in frustration at the end. While the transcript records him saying *"that is responsible behavior,"* the context and his subsequent escalation suggest this was either heavy sarcasm or a transcription error for *"irresponsible behavior."* He ended the call feeling unheard and angry, repeatedly calling the service *"bad behavior."*
+
+### **2. Comfort Level: High AI-Tolerance, Low System-Tolerance**
+Manas was highly comfortable speaking to an AI agent. He didn't hesitate, spoke naturally, and didn't exhibit the usual "robotic" pauses of someone afraid of AI. 
+However, his comfort level plummeted when the technical error occurred. When the AI could not perform the core task, Manas lost trust in the technology and tried to force it to "try again" rather than accepting the offline callback solution.
+
+### **3. Query Resolution: Unresolved (With a Safety Net)**
+*   **Did they get what they called for?** No. Manas called to book an ECG for 5:00 PM today. Because of a backend system error, the appointment was not confirmed. 
+*   **Resolution Quality:** While Aria (the AI) did the right thing by taking his details and promising a manual callback from the clinic team, this is a "failed call" from a customer experience standpoint. For a patient needing an ECG today, a "we will call you back" promise often induces anxiety rather than peace of mind.
+
+### **4. Confusion Points & Speech-to-Text (STT) Glitches**
+This transcript highlights a few key moments where things got confusing, largely due to STT limitations:
+*   **The Date Verification:** Aria asked, *"Could you please tell me today's date so I can enter it correctly in our system?"* This is highly unusual for an AI. An automated agent should know the current date. Asking the user for today's date adds unnecessary cognitive load and makes the AI look unintelligent.
+*   **The "Sachin" vs. "Shocking" Mystery:** Near the end, the transcript reads: *"No, listen to me, listen to me, that is Sachin. Bad behavior."* 
+    *   *Analysis:* It is highly likely the patient was saying, **"that is shocking"** or **"that is shocking behavior."** Because of an Indian English accent, the STT software likely transcribed "shocking" as "Sachin" (a very common Indian name). The AI completely missed this distress cue and continued calling him "Manas," which likely made him feel even more ignored.
+*   **Email Mismatch:** Manas spelled his email as *"M A N A S A C H A R Y A @ 1702"*, omitting "gmail.com" in his spoken spelling. However, Aria correctly guessed the full email address. While this worked out, it represents a potential point of failure in verification.
+
+### **5. Overall Experience Rating: 2.5 / 5 Stars**
+*   **Why?** The call started as a 5-star experience. Aria’s multilingual switching was seamless, and the information gathering was polite and efficient. 
+*   **The Downfall:** The rating drops significantly because of the backend system failure, the weird "what's today's date" question, and the STT failure at the end. The call ended with the customer feeling unheard, angry, and shouting "bad behavior" into the phone, which is a poor outcome for a healthcare platform.
+
+---
+
+### **6. Recommendations for Medoria**
+
+*   **Implement Real-Time System Status Checks:** Aria should not go through the entire process of gathering the name, spelling the email, and asking for the date if the booking system is down. A check should run in the background at the start of the call. If the database is offline, Aria should state this upfront: *"Our booking system is currently undergoing quick maintenance, but I can take your details and have a coordinator call you back immediately."*
+*   **Fix the "Today's Date" Prompt:** Remove the rule requiring the AI to ask the user for "today's date." The system should automatically pull the system date and time.
+*   **Fine-Tune the STT for Accents:** Optimize the Speech-to-Text engine for Indian-English phonetic variations to prevent words like "shocking" or "irresponsible" from being transcribed as "Sachin" or "responsible." 
+*   **Improve the "System Down" Script:** When a user says *"Can you try again?"* the AI should explain *why* trying again immediately won't work (e.g., *"I wish I could, but our connection to the server is completely offline right now..."*) to de-escalate the user's insistence.

@@ -1,0 +1,33 @@
+Call Date: 2026-06-06 12:02:02
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hey, I want to book an appointment with Dr. Mehta.
+Aria: I can certainly help you book that appointment. May I have your full name, please?
+User: My full name is Manas Acharya
+Aria: Thank you, Manas. Could you share your email address so I can send you the appointment details?
+User: My email address is manasacharya1702@gmail.com
+Aria: Could you please spell that out for me letter by letter so I make sure I have it right?
+User: Sure
+Aria: Thank you, please go ahead.
+User: It is M A N A S A C H E R Y A 1702@gmail.com
+Aria: Just to confirm, your email is m-a-n-a-s-a-c-h-e-r-y-a-1-7-0-2 at gmail.com, is that correct?
+User: No, that is not correct.
+Aria: My apologies. Let's try that again. Could you please spell your email address for me letter by letter?
+User: Manasacharya1702@gmail.com it is MANASACHARYA1702@gmail.com
+Aria: Just to confirm, your email is m-a-n-a-s-a-c-h-a-r-y-a-1-7-0-2 at gmail.com, is that correct?
+User: That is correct
+Aria: Great! What date and time works best for you, and what service would you like to come in for?
+User: Today at 7 PM for ECG
+Aria: So I have Manas Acharya, appointment with Dr. Arjun Mehta for today at 7:00 PM for an ECG. Shall I go ahead and confirm this?
+User: Nine
+Aria: I'm sorry, did you mean you would like to change the time to 9:00 PM, or were you saying no to the confirmation?
+User: I am saying no to the confirmation.
+Aria: Ah, got it. What date, time, or service would you like to change?
+User: Can you change the service for me?
+Aria: Of course! We offer several services like a Cardiac Consultation, Echocardiography, a Stress Test, Holter Monitoring, or Hypertension Management. What would you like to come in for instead?
+User: Now I do not want ECG, now I want cardiac consultation.
+Aria: Understood, we can switch that to a Cardiac Consultation. 
+
+So, I have Manas Acharya, for a Cardiac Consultation with Dr. Arjun Mehta today at 7:00 PM. Shall I go ahead and confirm this?
+Aria: Thank you for calling Medoria. Have a great day, take care!

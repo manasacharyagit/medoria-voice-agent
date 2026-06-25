@@ -1,0 +1,50 @@
+Sentiment Analysis Report
+Call Date: 2026-06-24 10:42:09
+Phone: 918709252948
+========================================
+
+Here is the behavioural and sentiment analysis report for the recent customer interaction.
+
+---
+
+# Call Analysis & Sentiment Report: Medoria Patient Interaction
+
+This report evaluates a brief interaction between a patient and "Aria," Medoria’s virtual assistant representing Dr. Arjun Mehta’s clinic. 
+
+---
+
+### 1. Customer Mood: Calm, Cooperative, and Courteous
+The caller exhibited a very pleasant, calm, and cooperative demeanor throughout this brief interaction. 
+* **Initial State:** They started the call with a casual and friendly tone (*"Hey, can you reschedule my appointment?"*). 
+* **Shift in Mood:** Even when Aria delivered the disappointing news that she couldn’t directly reschedule the appointment, the caller didn't show any signs of frustration or impatience. Instead, they remained polite and appreciative, offering a quick *"Thank you"* before asking their follow-up question. 
+* **Overall:** This is an ideal caller profile—patient, polite, and highly receptive to the AI's guidance.
+
+### 2. Comfort Level: High and Natural
+The caller seemed completely comfortable interacting with the AI virtual assistant. There were no awkward pauses, stutters, or signs of hesitation that typically indicate a user is struggling to talk to a robot. They spoke naturally and conversationalized their requests, treating Aria with the same courtesy they would extend to a human receptionist. 
+
+### 3. Query Resolution: Partially Resolved (Pathway to Resolution)
+From a strictly technical standpoint, **the user’s primary goals (rescheduling and canceling) were not resolved during the call.** 
+* Aria's current capabilities are restricted to booking *new* appointments and providing clinic information. 
+* However, the query was resolved in terms of *expectations*. Aria successfully redirected the request by promising a manual follow-up from the clinic's team. The caller was left knowing that their request was logged and that a human would be in touch, which seemed to satisfy their immediate needs.
+
+### 4. Confusion Points: The "Cancel My Call" Ambiguity
+There was one minor point of linguistic confusion during the call. After being told that a team member would call them back to reschedule, the user asked: *"And can you cancel my call?"*
+* **What it likely meant:** The user most likely meant to say *"can you cancel my appointment?"* (as in, canceling the existing slot they wanted to reschedule). 
+* **The AI's response:** Aria interpreted this as a request for "cancellations" in general and repeated her limitation. While the interaction ended smoothly, this phrasing represents a slight disconnect where the user's intent was a bit ambiguous, possibly due to a slip of the tongue.
+
+### 5. Overall Experience: 3.5 out of 5 Stars
+The call was quick, polite, and professional, but it highlights a gap between user expectations and system capabilities.
+* **The Good:** Aria was incredibly polite, clearly articulated her limitations, and immediately set up a warm handoff (human callback). The branding transition at the end was smooth.
+* **The Room for Improvement:** For a healthcare platform, rescheduling and cancellations are high-frequency, essential tasks. Forcing a patient who is already on the phone to wait for a callback just to change an appointment time is a friction point in the user journey.
+
+---
+
+### 6. Recommendations for Improvement
+
+To elevate this experience from "good" to "exceptional," we recommend the following adjustments:
+
+* **Integrate Calendar Read/Write Capabilities:** The single biggest upgrade for Aria would be integrating her with the clinic’s scheduling software. Allowing her to authenticate the user and process rescheduling/cancellations directly would turn this 2-minute "redirect" call into a 30-second "fully resolved" call.
+* **Proactive Information Gathering:** If Aria cannot perform the reschedule directly, she should gather the necessary details *before* handing the task to the human team. 
+  * *Example:* "I can't reschedule that directly, but I can take down your preferences. What day and time work best for you? I'll pass this straight to our team so they have it ready when they call you."
+* **Smart Clarification Protocols:** To handle ambiguous phrases like *"can you cancel my call?"*, Aria should be trained to ask a quick clarifying question rather than delivering a generic rejection message. 
+  * *Example:* "Just to make sure I understand—did you want to cancel your upcoming appointment with Dr. Mehta, or did you want to cancel the callback request I just put in for you?"

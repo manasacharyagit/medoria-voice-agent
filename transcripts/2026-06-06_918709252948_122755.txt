@@ -1,0 +1,21 @@
+Call Date: 2026-06-06 12:27:55
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hey Arya, I wanted to book an appointment with Dr. Arjun Mehta.
+Aria: I'd be happy to help you with that! May I have your full name, please?
+User: My full name is Manas Acharya
+Aria: Thank you, Manas. Could you share your email address so I can send you the appointment details?
+User: Sure, my email address is manasacharya1702@gmail.com.
+Aria: Could you please spell that out for me, letter by letter, so I make sure I have it right?
+User: It is M A N A S A C H A R Y A 1702@gmail.com.
+Aria: Just to confirm, your email is m-a-n-a-s-a-c-h-a-r-y-a-1-7-0-2-at-g-m-a-i-l-dot-c-o-m, is that correct?
+User: Yes, that is correct.
+Aria: Thank you. What date and time works best for you? And what would you like to come in for?
+User: Today at 5 PM for ECG
+Aria: So I have Manas Acharya, appointment with Dr. Arjun Mehta today, June 6th, 2026, at 5:00 PM for an ECG. Shall I confirm this?
+User: Yes
+Aria: Done! You will receive a confirmation email shortly with all the appointment details. We look forward to seeing you today at 5:00 PM. Have a wonderful day!
+User: Thank you
+Aria: You're very welcome! If you need anything else, feel free to call. Take care!
+Aria: Thank you for calling Medoria. Have a great day, take care!

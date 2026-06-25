@@ -1,0 +1,41 @@
+Sentiment Analysis Report
+Call Date: 2026-06-03 17:48:51
+Phone: 918709252948
+========================================
+
+Here is the behavioral and sentiment report based on the provided transcript. 
+
+Since the transcript contains only two lines from the AI assistant (Aria) and no customer dialogue, this appears to be a **"ghost call" or an immediate hang-up**. The caller disconnected right after the greeting, prompting Aria to deliver her sign-off. 
+
+While we don't have verbal cues from the customer, this specific type of call pattern tells a very clear story about user behavior and system design. Here is the analysis:
+
+---
+
+### **1. Customer Mood — Unengaged / Impatient**
+Because the customer didn’t speak, we can't analyze their tone of voice. However, their action speaks volumes. Based on typical call-center behavior, the caller was likely **impatient** or **disengaged**. The moment they realized they were speaking to an AI agent rather than a live receptionist at Dr. Arjun Mehta’s clinic, they decided to hang up. 
+
+### **2. Comfort Level — Low / Avoidant**
+The customer’s comfort level with the AI was likely very low. Many healthcare callers—especially those who might be feeling unwell, anxious, or elderly—exhibit "bot avoidance." Hearing *"I'm Aria, your virtual assistant"* can trigger an immediate opt-out response. Rather than navigating a voice bot, the caller chose to disconnect, indicating they were not comfortable or willing to engage with an AI for their healthcare needs at that moment.
+
+### **3. Query Resolution — Unresolved**
+The query was entirely unresolved. The caller dialed in with a specific need (likely to book an appointment or ask Dr. Mehta's clinic a question) but left without getting any assistance or even initiating their query.
+
+### **4. Confusion Points — System Triggering**
+While the customer didn’t voice any confusion, there is a technical query here: **Why did Aria say goodbye immediately?** 
+There are two possibilities:
+*   **The Customer Hung Up:** The customer disconnected immediately, and the system registered the hang-up, triggering the automated farewell.
+*   **Silence/Timeout Glitch:** If the customer was actually on the line but silent, Aria’s system might have had an overly aggressive "silence detection" timeout, cutting the caller off and saying goodbye before they even had a chance to speak.
+
+### **5. Overall Experience — Poor (Dropped Call)**
+On a scale of 1 to 10, this experience is a **1/10**. It represents a lost opportunity for Dr. Mehta's clinic to help a patient. Dropped calls at the greeting stage indicate that the entry point of the conversational funnel is leaking users.
+
+---
+
+### **6. Recommendations for Improvement**
+
+To prevent these immediate drop-offs and make the experience warmer and more engaging for healthcare patients, we recommend the following adjustments:
+
+*   **Soften the "AI Disclosure":** Leading immediately with *"I'm Aria, your virtual assistant"* can scare off tech-hesitant callers. Try a more human-centric, collaborative opening: 
+    *   *Alternative:* "Hi! Thanks for calling Dr. Mehta's clinic. I'm Aria, and I can help you book appointments, check prescription refills, or get you to the right person. What can I help you with today?" (This immediately establishes utility before they can hang up).
+*   **Implement a "Human Bypass" Route:** If a caller is silent or hesitates for more than 3 seconds after the greeting, instead of saying goodbye, Aria should offer an easy way out: *"If you'd prefer to speak to our front desk, just say 'operator' or hold on."*
+*   **Review Silence Detection Settings:** Ensure the system's voice activity detection (VAD) isn't too sensitive. If a patient is pulling up their calendar or clearing their throat, Aria shouldn't immediately assume the call is over and trigger the "Thank you for calling Medoria" exit message.

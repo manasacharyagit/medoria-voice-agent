@@ -1,0 +1,10 @@
+Call Date: 2026-06-24 10:42:09
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hey, can you reschedule my appointment?
+Aria: I understand you'd like to reschedule. I can only help with new appointment bookings and information about Dr. Arjun Mehta's clinic right now. I will make sure someone from our team follows up with you to handle that request. Is there anything else I can help you with today?
+User: Thank you
+User: And can you cancel my call?
+Aria: You're very welcome. Since I can't handle cancellations or rescheduling directly, our team will be in touch shortly to assist you with that. Thank you for calling Dr. Mehta's clinic—have a wonderful day!
+Aria: Thank you for calling Medoria. Have a great day, take care!

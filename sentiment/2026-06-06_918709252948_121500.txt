@@ -1,0 +1,35 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 12:15:00
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment analysis of the call transcript between the patient, Manas Acharya, and Medoria’s AI assistant, Aria.
+
+---
+
+### **1. Customer Mood: From Cooperative to (Likely) Bewildered**
+Manas started the call in a very cooperative and calm frame of mind. He had a clear goal—booking an ECG appointment—and was perfectly happy to provide his personal details (name and email) to get it done. Even when asked to spell out his email address letter-by-letter (which can be tedious), he did so patiently. 
+
+However, the call ended on a highly abrupt note. After Manas corrected Aria's read-back of his email, Aria asked him to repeat it, but immediately cut him off with a closing script and hung up. While we don't have Manas’s final response on transcript, his mood undoubtedly shifted from **calm and cooperative** to **utterly confused and frustrated** by this sudden termination.
+
+### **2. Comfort Level: High (Initially)**
+Manas showed absolutely no hesitation in talking to an AI agent. He responded naturally to Aria’s prompts, didn't sound robotic, and didn't demand to speak to a human. He was highly comfortable navigating the automated system right up until the system failed him.
+
+### **3. Query Resolution: Completely Unsuccessful**
+The primary objective of the call—booking an ECG appointment—was **not resolved**. The interaction was cut short during the basic information-gathering stage. Manas did not get his appointment, nor did he get any confirmation that someone would call him back. 
+
+### **4. Confusion Points: The Email Loop & The Glitch**
+There were two major friction points in this short call:
+*   **The Spelling Discrepancy:** Manas’s last name is "Acharya," but when spelling his email, he spelled it *"M-A-N-A-S-E-C-H-R-Y-A"* (replacing the 'A' with an 'E' and skipping the second 'A'). When Aria read back exactly what he had spelled, Manas realized it was incorrect. This is a common human error when spelling things out loud over the phone.
+*   **The System Glitch (Critical Failure):** The most glaring issue occurred at the very end. Aria said, *"Let's try that again. Could you please spell it out for me letter by letter once more?"* and then, **without waiting for Manas to speak**, immediately triggered her goodbye script: *"Thank you for calling Medoria. Have a great day, take care!"* This represents a severe conversational logic error or a premature timeout on the AI’s part.
+
+### **5. Overall Experience: 1.5 / 5 (Poor)**
+While the call started off beautifully—Aria was polite, clear, and efficient—it ended in a catastrophic user experience. Hanging up on a patient who is trying to book an ECG (which could be for a critical heart condition) is a major red flag. The technology failed to deliver on its basic promise of scheduling assistance.
+
+---
+
+### **6. Recommendations for Improvement**
+
+*   **Fix the Conversation Flow Glitch:** The development team needs to immediately review the conversation tree. The system should never trigger a "goodbye" intent immediately after asking a question. There must be a pause to wait for the user’s voice input.
+*   **Implement an SMS/Digital Fallback for Complex Data:** Spelling out email addresses letter-by-letter over the phone is incredibly high-friction. Instead, Aria could say: *"To make things easier, I can send a quick text message to your phone. You can just tap the link to type in your email and choose your appointment time. Would that work?"*
+*   **Build a "Human Fallback" Safety Net:** If the AI detects a correction (e.g., the user saying "No, that is not correct") followed by any system hesitation, it should automatically route the call to a live clinic receptionist. A patient looking for an ECG should never be left stranded by a glitching bot.

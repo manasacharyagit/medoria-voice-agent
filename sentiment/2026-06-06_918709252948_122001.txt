@@ -1,0 +1,46 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 12:20:01
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment analysis of the call between your virtual assistant, Aria, and the patient, Manas Acharya.
+
+---
+
+# Call Analysis & Sentiment Report: Manas Acharya
+
+### 1. Customer Mood: Calm & Cooperative
+Throughout the call, Manas exhibited a remarkably **calm, patient, and cooperative** demeanor. Even though he was calling to book an ECG—a procedure that can sometimes be associated with health anxiety—there were no signs of panic, urgency, or stress in his voice. 
+* **Mood Progression:** His mood remained highly stable. When Aria made a scheduling error, he didn’t get annoyed; instead, he corrected her in a very matter-of-fact, polite manner. He was an ideal caller who was happy to follow the assistant's flow.
+
+### 2. Comfort Level: High and Natural
+Manas seemed entirely comfortable interacting with Aria. There was zero hesitation, skepticism, or "AI awkwardness." He treated Aria like a human receptionist, answering her prompts immediately. 
+* Even when Aria nudged him to continue ("Go ahead, I'm ready to take it down") or asked him to spell out his email letter-by-letter, Manas complied without any sighing or hesitation. He is clearly comfortable using voice-automation technology.
+
+### 3. Query Resolution: 100% Successful
+The caller’s primary objective was completely met. Manas called to book a same-day 5:00 PM appointment with Dr. Mehta for an ECG, and by the end of the call:
+* The appointment was locked in for **June 6th at 5:00 PM**.
+* His contact information was successfully captured.
+* Aria confirmed a follow-up email was on the way. 
+From a pure utility standpoint, the system delivered exactly what the patient needed.
+
+### 4. Friction & Confusion Points
+While the call ended successfully, there were a couple of distinct moments of friction:
+* **The Email Interruption:** Manas started giving his email ("Yes, my email address is...") but paused. Aria immediately cut in to say, "Go ahead, I'm ready." While friendly, this felt a bit impatient on the AI's part and interrupted his natural speaking flow. 
+* **The "Yes, I result" Phrase:** After Aria confirmed the spelling of his email, Manas replied, *"Yes, I result."* This was likely a transcription error by the Speech-to-Text (STT) engine (perhaps he said "Yes, that's right" or "Yes, result"), but Aria handled it smoothly by moving to the next question.
+* **The Major Date Hallucination:** The most glaring issue occurred when Aria attempted to confirm the booking. Out of nowhere, she assumed "today" was **October 25th, 2024**, when the actual date was **June 6th**. Manas had to step in and correct her: *"Today is not October 25th, today is June 6th."* 
+
+### 5. Overall Experience Rating: 4 / 5 (Very Good)
+We would rate this call experience a **4 out of 5**. 
+* **The Good:** The call was fast (under 2 minutes), conversational, and successfully achieved the user's goal. Aria’s tone was warm and welcoming, and her recovery from her date mistake was graceful and immediate.
+* **The Not-So-Good:** The date hallucination and the requirement for the user to spell out a relatively straightforward email address letter-by-letter dragged down what could have been a flawless 5-star experience. 
+
+---
+
+### 6. Actionable Recommendations for Medoria
+
+To elevate this experience from "good" to "frictionless," we recommend the following system updates:
+
+* **Fix the System Clock (Critical):** Aria’s hallucination of October 25th suggests her prompt context lacks a dynamically updated "current_date" parameter, or the system time-stamp is misconfigured. Ensuring the AI always knows the *exact* current date is crucial for booking same-day or next-day appointments.
+* **Improve Email Parsing:** Asking patients to spell out their email "letter-by-letter" is a tedious user experience. We recommend upgrading the Speech-to-Text engine to recognize standard email formats and common names (like "Manas Acharya"). The system should only resort to spelling out letters as a backup if the initial voice-capture confidence score is low.
+* **Optimize Turn-Taking Thresholds:** Adjust Aria's silence-detection threshold. She spoke over Manas slightly when he paused after saying "My email address is." Giving the user a slightly wider window (e.g., 1.5 to 2 seconds of silence) before the AI prompts them to continue will make the conversation feel much more natural and less rushed.

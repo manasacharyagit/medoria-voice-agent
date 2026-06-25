@@ -1,0 +1,7 @@
+Call Date: 2026-06-06 11:29:58
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hello
+Aria: Hello! How can I help you today?
+Aria: Thank you for calling Medoria. Have a great day, take care!

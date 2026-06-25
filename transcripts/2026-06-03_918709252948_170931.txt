@@ -1,0 +1,9 @@
+Call Date: 2026-06-03 17:09:31
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. Are you looking for a specific doctor, or can I help you find the right specialist for your concern?
+User: Yeah, hello, can you tell me about the qualification of Dr. Vikram Singh?
+Aria: Dr. Vikram Singh is highly qualified; he holds an MBBS and an MS in Orthopedics, with over fifteen years of experience. Would you like to know more about the services he offers or perhaps book an appointment with him?
+User: Oh no thanks
+Aria: No problem at all! If you ever need help with finding a doctor or booking an appointment in the future, feel free to give us a call back. Have a wonderful day!
+Aria: Thank you for calling Medoria. Have a great day, take care!

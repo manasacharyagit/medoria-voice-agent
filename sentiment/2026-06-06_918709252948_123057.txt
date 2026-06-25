@@ -1,0 +1,46 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 12:30:57
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment analysis of the call transcript between the caller, Manas Acharya, and Medoria’s virtual assistant, Aria.
+
+---
+
+# Call Analysis & Sentiment Report: Manas Acharya’s Booking Experience
+
+## 1. Customer Mood: Calm to Abruptly Cut Off
+Manas started the call in a very **calm, cooperative, and direct** mood. He was highly responsive and followed prompts without any initial friction. 
+* **The Shift:** We see a slight hint of mild impatience or conversational fatigue during the email verification process. When Aria asked him to split up his email, Manas politely corrected the flow by saying, *"I'll repeat again,"* and provided the entire address. 
+* **The Ending:** While we don’t get to hear Manas’s final reaction because the call was abruptly ended by the AI, his mood likely shifted from cooperative to **highly frustrated and confused** when the assistant hung up on him right after offering alternative appointment times.
+
+## 2. Comfort Level: High and Natural
+Manas showed a **high level of comfort** interacting with the AI agent. He didn't exhibit the usual hesitations, pauses, or "ums" often seen when users are uncomfortable talking to a bot. He spoke in clear, concise sentences (*"Can you book an appointment for me?"*, *"ECG"*, *"Yes"*). He was an ideal user for a voice assistant—clear, direct, and patient enough to spell out his details when asked.
+
+## 3. Query Resolution: Failed ❌
+Unfortunately, **the caller’s query was not resolved.** 
+Manas called to book an ECG appointment for today. Although the AI successfully gathered all his information (name, email, date, time, and reason for visit), the booking was not finalized. The requested 5:00 PM slot was unavailable, and before Manas could select one of the alternative times suggested by Aria (5:30 PM or 6:00 PM), the system prematurely terminated the call. Manas left without an appointment.
+
+## 4. Confusion & Friction Points
+There were two major friction points in this conversation:
+* **The Email Spelling Loop:** Aria asked Manas to spell his email letter by letter. Manas complied by spelling "MANASACHARYA," but Aria then awkwardly asked for "the rest of the email." This forced Manas to repeat himself (*"I'll repeat again"*) to give the full address, including the numbers and domain.
+* **The Ultimate System Glitch (The "Hang-Up"):** The most glaring issue occurred at the very end. Aria asked a highly critical, open-ended question: *"Would you like to try a different time, perhaps 5:30 PM or 6:00 PM?"* but immediately followed it up with the closing script: *"Thank you for calling Medoria. Have a great day, take care!"* without giving Manas a single second to reply. 
+
+## 5. Overall Experience: Poor (2/10)
+While the speech-to-text accuracy was excellent (Aria successfully captured a complex name, a long email address, and the medical reason "ECG"), **the conversation flow was a failure.** 
+For a healthcare platform, hanging up on a patient who is actively trying to book an ECG (a test often associated with heart health and anxiety) is a critical failure. The user spent time giving his personal details only to be shut out at the very last step.
+
+---
+
+## 6. Recommendations for Improvement
+
+### 🛠️ Fix the Critical Conversational Logic (High Priority)
+The system must be debugged immediately to prevent it from triggering the "goodbye" intent right after asking a question. If a slot is taken and the AI proposes alternatives, the system **must pause and wait for a user response** (a standard input turn) before proceeding.
+
+### 🔄 Shift Availability Checks Earlier in the Flow
+Currently, Aria collects the user's name, email, date, time, and reason for visit *before* checking if the slot is open. 
+* **Improvement:** Once Manas said *"Today at 5:00 PM,"* the system should have instantly pinged the clinic's calendar. If 5:00 PM was blocked, Aria should have said: *"I see 5:00 PM is taken today. I have 5:30 PM or 6:00 PM open instead—would either of those work?"* This saves the user from going through the rest of the intake process for a slot that doesn't exist.
+
+### 📧 Optimize Email Capturing
+Asking users to spell out their emails letter-by-letter is a notorious UX bottleneck. 
+* **Improvement:** Train the AI to recognize standard domains (like "@gmail.com") automatically so the user only has to spell the unique prefix. Alternatively, if a user has called before, the system should ask, *"Is [email on file] still the best email for your confirmation?"* to streamline the call.

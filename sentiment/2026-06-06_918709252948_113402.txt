@@ -1,0 +1,35 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 11:34:02
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment analysis of the call between the customer and Medoria’s virtual assistant, Aria.
+
+---
+
+### **1. Customer Mood: Curious but Cut Short**
+The caller started the interaction in a very neutral, polite mood. They initiated the conversation with a simple, friendly "Hello," and when prompted, asked a direct, open-ended question about Dr. Arjun Mehta. 
+
+Because the call was abruptly terminated by the system, we didn't get to see how their mood evolved. However, it is highly likely the caller transitioned from **curious and engaged** to **confused and frustrated** when Aria unexpectedly hung up on them right after asking if they wanted to book an appointment. 
+
+### **2. Comfort Level: High (Initially)**
+The caller seemed completely comfortable interacting with an AI virtual assistant. There was no hesitation, stuttering, or reluctance. They didn't demand to "speak to a human" and instead asked a natural, conversational question (*"Can you tell me more about Dr. Arjun Mehta?"*). They treated Aria like a capable assistant, showing a high level of comfort with the technology.
+
+### **3. Query Resolution: Incomplete**
+*   **What was resolved:** The caller asked for information about Dr. Mehta, and Aria provided a highly detailed, accurate, and professional summary of his 18 years of experience, credentials (MBBS, MD, DM), and location in Rohini, New Delhi. 
+*   **What was NOT resolved:** The core reason for the call was left hanging. Aria asked a great follow-up question (*"Are you looking to book an appointment with him, or did you have any specific questions...?"*) but shut down the call before the user could even breathe, let alone answer. The caller’s ultimate goal (likely booking an appointment or asking a specific medical/service question) was left entirely unaddressed.
+
+### **4. Confusion Points: A System-Side Logic Error**
+While the caller didn’t voice any confusion during their brief speaking turns, there was a massive point of conversational confusion triggered by the AI. 
+
+Aria asked a multi-choice question to prompt the user's next step, but **without waiting for a response, immediately triggered her wrap-up/goodbye script** (*"Thank you for calling Medoria. Have a great day..."*). This is a jarring "conversational whiplash" that would leave any caller staring at their phone in utter confusion.
+
+### **5. Overall Experience: Poor (2/5 Stars)**
+While Aria’s voice/text generation was warm, professional, and informative, the technical execution was a failure. A customer service call is only as good as its resolution. Because the system cut the user off prematurely, the experience goes from "promising" to "highly frustrating." The caller was essentially forced to redial and start the process all over again.
+
+### **6. Recommendations for Improvement**
+To prevent this from happening to future callers, we suggest the following adjustments:
+
+*   **Fix the Turn-Taking Logic:** The system must wait for a user response after asking a question. There should be a voice-activity detection (VAD) delay of at least 2–3 seconds of silence before the AI assumes the user is done speaking, and it should *never* trigger a goodbye sequence immediately following an open-ended question.
+*   **De-duplicate the Greeting Loop:** When the user simply said "Hello," Aria repeated her prompt almost verbatim. Instead of a robotic loop, Aria could say something more natural like, *"Hi there! I'm ready when you are. What can I help you with today?"*
+*   **Implement a Fallback "Catch-All":** If the system thinks a user has hung up or if there is dead air, instead of a sudden "Have a great day!", it should prompt: *"Are you still there? I'd love to help you book that appointment."*

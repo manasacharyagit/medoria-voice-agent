@@ -1,0 +1,6 @@
+Call Date: 2026-06-05 16:11:48
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Ashish's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Yeah, can you tell me the address of doctor's clinic and the name of the clinic?
+Aria: Thank you for calling Medoria. Have a great day, take care!

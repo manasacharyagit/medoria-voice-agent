@@ -1,0 +1,53 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 12:02:02
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment analysis of the call transcript between Medoria’s virtual assistant, Aria, and the customer, Manas Acharya.
+
+---
+
+# Call Analysis Report: Manas Acharya’s Booking Experience
+
+## 1. Customer Mood
+Manas started the call in a very **calm, direct, and cooperative** mood. He knew exactly what he wanted (to book an appointment with Dr. Mehta) and was highly responsive to Aria’s initial prompts. 
+
+However, his mood shifted slightly to **mild frustration and impatience** during the email confirmation. Spelling out an email address letter-by-letter is a known friction point, and having to do it twice because of a spelling/transcription mismatch tested his patience. 
+
+By the end of the call, when changing his mind from an ECG to a Cardiac Consultation, Manas's tone became **firm and assertive** ("*Now I do not want ECG, now I want cardiac consultation*"). He wanted to get to the point quickly, likely feeling that the call was dragging on longer than necessary for a simple booking.
+
+## 2. Comfort Level
+Manas showed a **very high comfort level** interacting with the AI agent. He didn't show any of the typical hesitations—like awkward pauses, talking over the bot, or asking to "speak to a human"—that we often see with users who are uncomfortable with AI. He treated Aria like a competent assistant, answering prompts naturally and correcting the bot without hesitation. 
+
+## 3. Query Resolution
+**Incomplete / Unresolved.** 
+While Aria successfully gathered Manas's details and updated his requested service to a Cardiac Consultation, **the call ended prematurely**. Aria asked, *"Shall I go ahead and confirm this?"* and immediately jumped to the closing script (*"Thank you for calling Medoria..."*) without waiting for Manas's confirmation. 
+
+As a result, we cannot verify if the appointment was actually booked in the system, leaving the primary goal of the call unresolved.
+
+## 4. Confusion Points
+There were three distinct friction and confusion points during this short call:
+*   **The Email Spelling Loop:** Manas initially spelled his last name with an 'E' ("ACHERYA") instead of an 'A' ("ACHARYA"), which caused Aria to read back the wrong spelling. This forced a clunky reset of the email capture process.
+*   **The "Nine" vs. "No" Misunderstanding:** When Aria asked to confirm the ECG appointment, Manas replied with *"Nine"*. This was likely a transcription error or a multilingual slip (using "Nein" for "No"). To Aria's credit, she handled the ambiguity well by asking if he meant 9:00 PM or "No," but it still interrupted the flow of the conversation.
+*   **The Abrupt Goodbye:** The most glaring technical confusion occurs at the very end. Aria presents the final confirmation question and immediately triggers the goodbye message. This is a critical conversational design failure.
+
+## 5. Overall Experience
+**Rating: 2.5 / 5 (Below Average)**
+
+While Aria's voice synthesis, polite tone, and clarification logic (handling the "Nine" issue) were great, the overall experience was poor due to **system failure at the finish line**. A customer should never leave a booking call wondering, *"Did that actually go through?"* 
+
+The middle of the call felt repetitive due to the manual spelling of the email address, and the sudden termination of the call likely left Manas feeling confused and forced to call back or check his inbox to see if his appointment was secured.
+
+---
+
+## 6. Recommendations for Improvement
+
+### *   **Implement SMS-Based Data Capture for Complex Info**
+Instead of forcing users to spell out long email addresses letter-by-letter—which is highly prone to voice recognition errors—Aria should offer a digital handoff: 
+> *"I can send a quick link to your mobile number via SMS to securely type in your email and contact details. Would you prefer that?"* 
+
+### *   **Smart Name-to-Email Matching**
+Since Aria already captured his full name ("Manas Acharya"), the system's NLP should have anticipated that the email would likely contain "manas" and "acharya." This would help the system auto-correct minor spelling discrepancies (like "Acherya") without making the user repeat themselves.
+
+### *   **Fix the Confirmation Logic (Crucial)**
+The conversation flow must be configured to *require* an intent confirmation (e.g., "Yes/Confirm" or "No/Modify") before triggering the final API call to book the appointment and playing the exit prompt. The abrupt cutoff in this transcript suggests a timeout bug or a missing conditional branch in the conversation tree.

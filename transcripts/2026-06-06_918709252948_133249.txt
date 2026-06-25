@@ -1,0 +1,40 @@
+Call Date: 2026-06-06 13:32:49
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Can you book an appointment for me?
+Aria: I would be happy to help you book an appointment. May I have your full name, please?
+User: My name is Mast Acharya
+Aria: Thank you, Mast Acharya. Could you please share your email address so I can send you the appointment details?
+User: My email address is manasacharya160@gmail.com.
+Aria: Could you please spell that out for me letter by letter so I make sure I have it right?
+User: Bye
+Aria: I understand. Thank you for calling Dr. Arjun Mehta's clinic. Have a wonderful day, and feel free to call us back whenever you're ready!
+User: Is there anyone?
+User: Is there anyone?
+Aria: Yes, I am here! I'm ready to help you whenever you are. Would you like to continue booking your appointment, or is there something else I can help you with?
+User: No, I would like to continue booking an appointment.
+Aria: Great! Let's pick up where we left off. Could you please spell your email address, manasacharya160@gmail.com, letter by letter for me so I can make sure it's absolutely correct?
+User: Yes, it is M A N A S A C H A R Y A 1702@gmail.com.
+Aria: Just to confirm, your email is m-a-n-a-s-a-c-h-a-r-y-a-1-7-0-2-at-g-m-a-i-l-dot-c-o-m. Is that correct?
+User: That is correct
+Aria: Perfect. What date and time works best for you? And what would you like to come in for?
+User: Today at 5 PM
+Aria: Today is Saturday, June 6th, 2026. What service would you like to come in for today at 5:00 PM? We offer cardiac consultations, ECGs, and echocardiography, among other services.
+User: ECG
+Aria: So I have Mast Acharya, appointment with Dr. Arjun Mehta today, June 6th, 2026, at 5:00 PM for an ECG. Shall I confirm this?
+User: Sure
+Aria: I'm sorry, but that slot is already taken. Dr. Mehta is available on Saturdays from 9:00 AM to 1:00 PM and from 4:00 PM to 8:00 PM. Would you like to try another time today, perhaps 5:30 PM or 6:00 PM?
+User: 6 PM it is
+Aria: So I have Mast Acharya, appointment with Dr. Arjun Mehta today, June 6th, 2026, at 6:00 PM for an ECG. Shall I go ahead and confirm this?
+User: Yes
+Aria: Done! You will receive a confirmation email shortly with all the appointment details. We look forward to seeing you today at 6:00 PM. Have a wonderful day!
+User: Thank you. Kya hum Hindi mein baat kar sakte hain?
+Aria: Haan, bilkul! Hum Hindi mein baat kar sakte hain. Main aapki kya madad kar sakti hoon?
+User: Mujhe Doctor Arjun Mehta ki services ke baare mein batao
+Aria: Dr. Arjun Mehta ek cardiologist hain aur unke clinic par kai tarah ki heart-related services milti hain. Jaise ki complete evaluation ke liye Cardiac Consultation jo ki aath sau rupees ki hai. Iske alawa ECG teen sau rupees mein, Echocardiography pachees sau rupees mein, aur treadmill par Stress Test yaani TMT atharah sau rupees mein hota hai. Agar continuous monitoring chahiye toh Holter Monitoring do hazaar rupees mein aur high blood pressure ke liye Hypertension Management cheh sau rupees mein uplabdh hai. 
+
+Kya aap inme se kisi service ke baare mein aur jaan na chahte hain?
+User: Nahi, Thank you so much.
+Aria: Aapka bahut-bahut dhanyabaad! Agar aapko baad mein koi bhi madad chahiye ho, toh bejhijhak phone kijiyega. Aaj shaam ko cheh baje aapka ECG appointment hai, hum aapka intezaar karenge. Have a wonderful day!
+Aria: Thank you for calling Medoria. Have a great day, take care!

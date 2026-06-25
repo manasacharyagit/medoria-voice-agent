@@ -1,0 +1,57 @@
+Sentiment Analysis Report
+Call Date: 2026-06-23 09:49:46
+Phone: 918709252948
+========================================
+
+Here is the detailed behavioral and sentiment report for the call transcript between your virtual assistant, Aria, and the caller, Manas Acharya.
+
+---
+
+# 🤖 Aria & Manas: Interaction Analysis & Sentiment Report
+
+Overall, this call was a fascinating mix of great conversational design and a sudden, jarring technical contradiction. The caller, Manas, was incredibly polite and cooperative, but the system's logic gap prevented a seamless resolution.
+
+Below is a detailed breakdown of how the call went down.
+
+---
+
+### 1. Customer Mood: Calm, Patient, and Remarkably Gracious
+Manas started the call in a very **calm and cooperative** mood. He was highly responsive and didn't show any annoyance when asked to spell out his email address—a common friction point in voice AI calls. 
+
+*   **The Shift:** His mood took a slight turn toward **mild amusement and light frustration** at the end of the call. When Aria contradicted herself about being able to cancel the appointment, Manas called it out ("*See, that is what I asked you*"). However, instead of getting angry, he showed immense patience, quickly reassuring the AI ("*No issues, no issues. Good, good man, good, you're good*"). 
+*   **Takeaway:** Manas is an ideal customer—highly patient and forgiving. A less patient caller might have reacted with sharp annoyance at the bait-and-switch regarding the cancellation policy.
+
+### 2. Comfort Level: Exceptionally High
+Manas felt **extremely comfortable** interacting with Aria. He didn’t use rigid, robotic commands; instead, he spoke to her as he would to a human receptionist. 
+*   He used casual phrases like, "*Can you give me a second?*" and "*Uh, yes, cancel my appointment.*" 
+*   His comfort level with AI is high, meaning he didn't need to be guided heavily on how to talk to the system. He expected the system to work fluidly.
+
+### 3. Query Resolution: Incomplete (False Green Light)
+While the primary initial task—booking a cardiac consultation—was **successfully resolved**, the overall call objective was **not resolved satisfactorily**. 
+*   **What went right:** Aria successfully captured Manas’s name, spelled out his email correctly, and booked the appointment for 4:00 PM today.
+*   **What went wrong:** When Manas asked if Aria could cancel or reschedule, Aria enthusiastically confirmed she could (*"Yes, I can assist you with that!"*). But when Manas immediately tried to execute a cancellation, Aria backtracked (*"I apologize, but I don't have the ability to cancel appointments directly..."*). 
+*   Ultimately, Manas had to settle for an offline follow-up from a human agent, meaning his final request was left unresolved in real-time.
+
+### 4. Confusion Points: The "Bait-and-Switch" Logic Gap
+There were two notable friction points during this brief call:
+*   **The Duplication:** In the transcript, Manas says "*For cardiac consultation*" twice in a row. This suggests either a slight voice latency issue (where Manas thought Aria didn't hear him) or a transcription lag on Aria's end.
+*   **The Feature Contradiction (Major Confusion Point):** This was the biggest hiccup of the call. Aria flat-out lied (or suffered a logic loop). She told the user she *could* cancel appointments, but when asked to do so three seconds later, she admitted she *could not*. This created instant confusion. Manas’s response (*"See, that is what I asked you"*) shows he noticed the lapse in logic immediately.
+
+### 5. Overall Experience Rating: 6.5/10 (Average)
+*   **The Good:** Aria’s tone was warm, polite, and professional. The email verification process was handled beautifully and accurately. Aria’s response to "Can you give me a second?" was perfect and natural (*"Of course! Take your time."*).
+*   **The Bad:** The logical contradiction at the end of the call damaged the trust of the interaction. If a virtual assistant promises a capability and immediately backtracks, it shatters the illusion of a smart assistant and reminds the user of the system's limitations. 
+*   **Why it didn't bomb:** The call rating remains above average purely because of **Manas's excellent attitude**. He saved the interaction from ending on a sour note with his friendly reassurance.
+
+---
+
+### 6. Recommendations for Improvement
+
+To prevent this type of friction in the future, we recommend implementing the following updates to Aria's conversational flow:
+
+1.  **Align Intent Capabilities with System Realities:** 
+    If Aria does not have API integration to write "delete" or "cancel" actions to the clinic’s database, she must never say *"Yes, I can assist you with that!"* to a general cancellation question. 
+    *   *Instead, she should say:* "I can help you reschedule, or I can take down a request to cancel your appointment and have our front desk team process it for you. Which would you prefer?"
+2.  **Fix Input Latency/Echoes:** 
+    Investigate why the user repeated "For cardiac consultation" twice. Ensure the system isn't leaving awkwardly long silences that prompt users to repeat themselves, which can cause double-booking errors.
+3.  **Implement a "Smart Handover" for Cancellations:**
+    Since cancellations require human follow-up, Aria should proactively gather the reason for cancellation or offer a preferred callback time, making the transition to the human team feel like a premium service rather than a system failure.

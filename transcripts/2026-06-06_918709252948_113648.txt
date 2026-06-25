@@ -1,0 +1,45 @@
+Call Date: 2026-06-06 11:36:48
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hey Arya, kya hum Hindi mein baat kar sakte hain?
+Aria: Haan, bilkul! Hum Hindi mein baat kar sakte hain. Bataiye, main aapki kya madad kar sakti hoon?
+User: Yeah, switch to English again please.
+Aria: Sure, we can continue in English! How can I help you today?
+User: I want to book an appointment with Dr. Arjun Mehta for ECG at 5 PM today.
+Aria: I'd be happy to help you book that appointment for an ECG. May I have your full name, please?
+User: My name is Manas Acharya
+Aria: Thank you, Manas. Could you please share your email address so I can send you the appointment details?
+User: Yes, my email address is manasacharya1702@gmail.com.
+Aria: Thank you, Manas. Could you please spell that out for me letter by letter so I make sure I have it right?
+User: M A N A S A C H A R Y A @ 1702
+Aria: Just to confirm, your email is m-a-n-a-s-a-c-h-a-r-y-a-1-7-0-2 at g-m-a-i-l dot c-o-m, is that correct?
+User: Yes, that is correct.
+Aria: Could you please tell me today's date so I can enter it correctly in our system?
+User: It is 6th of June.
+Aria: So, I have Manas Acharya, appointment with Dr. Arjun Mehta on June 6th at 5:00 PM for an ECG. Shall I confirm this?
+User: Yes
+Aria: I'm so sorry, Manas, but I'm having a little trouble connecting to our booking system right now to secure that slot. I will make sure a member of our team follows up with you shortly to confirm your ECG appointment for today at 5:00 PM. 
+
+Is there anything else I can help you with in the meantime?
+User: Can you try again?
+User: Then you try again.
+User: Then you try again.
+Aria: I apologize, but the system is still showing a technical error on our end and is unable to process the booking right now. 
+
+I have noted down all your details: Manas Acharya, booking for an ECG today at 5:00 PM, and your email address. I will hand this over to our clinic team immediately, and they will contact you shortly to confirm your appointment. 
+
+Thank you so much for your patience! Is there anything else I can assist you with?
+User: That's such that is responsible behavior that is responsible behavior.
+Aria: Thank you so much for your understanding and patience, Manas. We always want to make sure you're taken care of. 
+
+Our team will get back to you very soon to confirm everything. Have a wonderful rest of your day!
+User: Hello
+Aria: Hello! How can I help you today?
+User: No, listen to me, listen to me, that is Sachin.
+User: Bad behavior
+User: Bad behavior
+Aria: I sincerely apologize for the frustration this has caused, Manas. I completely understand your disappointment. Since our automated booking system is experiencing an issue, I am personally forwarding your details to our clinic coordinator right now so they can manually schedule your ECG for 5:00 PM today and call you back immediately to confirm. 
+
+We truly appreciate your patience, and we will make this right for you.
+Aria: Thank you for calling Medoria. Have a great day, take care!

@@ -1,0 +1,59 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 12:27:55
+Phone: 918709252948
+========================================
+
+Here is a detailed behavioral and sentiment report analyzing the interaction between the caller, Manas Acharya, and Medoria’s virtual assistant, Aria.
+
+---
+
+# **Medoria Call Analysis Report**
+**Interaction Date:** June 6, 2026  
+**Caller:** Manas Acharya  
+**Virtual Assistant:** Aria  
+
+---
+
+### **1. Customer Mood: Calm & Cooperative**
+From the very first exchange, Manas exhibited a remarkably calm, pleasant, and cooperative demeanor. There were no signs of the anxiety or urgency often associated with healthcare calls, even though he was booking a same-day ECG (electrocardiogram), which can sometimes be a stressful procedure. 
+
+His mood remained entirely stable throughout the brief call. He politely provided information as requested, willingly spelled out his long email address without showing signs of impatience, and concluded the call with a warm "Thank you." 
+
+---
+
+### **2. Comfort Level: Exceptionally High**
+Manas seemed entirely comfortable interacting with Aria. Often, when users realize they are speaking to a virtual assistant, they might hesitate, speak in robotic fragments, or demand to speak to a human. Manas did none of this. He treated Aria with the same conversational politeness he would show a human receptionist. 
+
+When Aria asked him to spell out his email address letter-by-letter, he complied immediately and smoothly, showing zero hesitation or discomfort with the voice user interface (VUI).
+
+---
+
+### **3. Query Resolution: 100% Successful**
+The resolution of this call was seamless. Manas called with a highly specific goal: to book an ECG appointment with Dr. Arjun Mehta for later that day (5:00 PM). 
+
+Aria successfully gathered his name, captured and verified his email address, booked the correct procedure for the requested time slot, and confirmed the booking. The call ended with a clear expectation set for a confirmation email, meaning Manas got exactly what he called for in under two minutes.
+
+---
+
+### **4. Confusion Points: None (But a Potential Near-Miss)**
+There were no actual moments of confusion during this call. Aria accurately captured the spelling of "Manas Acharya" and a relatively complex email address (`manasacharya1702@gmail.com`) on the first try. 
+
+However, there was a minor "double-barreled" prompt from Aria: *"What date and time works best for you? And what would you like to come in for?"* 
+Asking a user to provide three distinct pieces of information (date, time, and reason for visit) in a single response can often cause confusion or lead to partial answers. Fortunately, Manas was sharp and answered perfectly ("Today at 5 PM for ECG"), but this design could easily trip up other callers.
+
+---
+
+### **5. Overall Experience: 9.5 / 10**
+This call is a textbook example of a highly successful AI customer service interaction. It was fast, efficient, polite, and completely successful. Aria's voice recognition software performed exceptionally well, particularly during the email verification process, which is usually the ultimate friction point in voice AI calls. The interaction felt natural and respectful of the caller's time.
+
+---
+
+### **6. Recommendations for Improvement**
+While this specific call went flawlessly, we can use it to optimize the experience for future callers who might not be as patient or tech-savvy as Manas:
+
+*   **De-clutter the Multi-Question Prompt:** Aria should split the date/time and reason-for-visit questions into two separate turns. For example:
+    *   *Step 1:* "What would you like to come in for today?" (User: "An ECG.")
+    *   *Step 2:* "Great. What date and time works best for you?" 
+    This prevents cognitive overload for the caller.
+*   **Leverage Existing Patient Data (If Applicable):** If Manas is a returning patient, Aria should ideally recognize his phone number and ask, *"I see we have your email on file as manasacharya1702@gmail.com, is that still correct?"* spelling out a 22-character email address letter-by-letter is tedious and should be avoided if the data already exists in Medoria's CRM.
+*   **Offer an SMS Confirmation Alternative:** For complex details like emails or long names, Aria could offer to send a quick text: *"To make things faster, can I text a secure link to this number to verify your details?"* This reduces the margin of error for voice-to-text transcription.

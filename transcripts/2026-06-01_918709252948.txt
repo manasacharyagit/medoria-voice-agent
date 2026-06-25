@@ -1,0 +1,12 @@
+Call Date: 2026-06-01 17:06:40
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. Are you looking for a specific doctor?
+User: Yes I am looking for a dentist
+Aria: We have Dr. Priya Sharma available. Would you like to know more about her?
+User: Yes please tell me about her
+Aria: Dr. Priya Sharma is a dentist with 10 years of experience.
+User: Can I book an appointment?
+Aria: Sure! May I have your full name please?
+User: My name is Manas Acharya
+Aria: Thank you for calling Medoria. Have a great day!

@@ -1,0 +1,67 @@
+Sentiment Analysis Report
+Call Date: 2026-06-06 13:32:49
+Phone: 918709252948
+========================================
+
+# Customer Behavior & Sentiment Report: Medoria Call Analysis
+
+**Date of Analysis:** June 6, 2026  
+**Agent:** Aria (Virtual Assistant)  
+**Customer:** Mast (Manas) Acharya  
+
+---
+
+### 1. Customer Mood: A Journey from Friction to Relief
+At the start of the call, the customer, Mr. Acharya, was calm and cooperative, quickly providing his name and email. However, his mood took a sudden dip when Aria asked him to spell out his email address letter by letter. This tedious request caused immediate friction—he abruptly said **"Bye"** and then seemingly went silent or disconnected. 
+
+Moments later, feeling disconnected or perhaps regretting the abrupt exit, he anxiously asked, **"Is there anyone?"** twice. 
+
+Once Aria warmly re-engaged, Mr. Acharya’s mood stabilized. He became cooperative again, worked through the scheduling conflict (finding a slot at 6:00 PM instead of 5:00 PM), and finally transitioned into a highly satisfied and relaxed state when the conversation switched to his preferred language, Hindi. By the end of the call, his tone was warm and appreciative (*"Nahi, Thank you so much"*).
+
+---
+
+### 2. Comfort Level: AI vs. Human Nuances
+Mr. Acharya’s comfort level with the AI was a bit of a roller coaster:
+* **The "AI Friction" Point:** When prompted to spell his email letter-by-letter, his immediate "Bye" suggests a low tolerance for repetitive, robotic verification processes. 
+* **The "Is anyone there?" Moment:** His double query of *"Is there anyone?"* indicates a classic hesitation with voice bots—the fear that the call dropped or that he was stuck in an unmonitored digital void. He was seeking a human presence.
+* **The Cultural Comfort Zone:** His comfort level skyrocketed the moment Aria agreed to speak Hindi. His sentence structure became more natural, and his closing remarks felt genuinely respectful and comfortable. 
+
+---
+
+### 3. Query Resolution: A Successful Outcome
+Ultimately, the call was a **complete success** from a resolution standpoint. Mr. Acharya achieved his core objectives:
+* **Primary Goal:** He successfully booked an ECG appointment for today (June 6th, 2026) at 6:00 PM with Dr. Arjun Mehta.
+* **Secondary Goal:** He received a comprehensive breakdown of Dr. Mehta’s services and pricing (Cardiac Consultation, ECG, Echo, TMT, etc.) in his preferred language. 
+
+The AI did an excellent job of handling a scheduling conflict (the 5:00 PM slot was taken) and seamlessly steering him to an alternative time (6:00 PM) without losing the booking.
+
+---
+
+### 4. Confusion & Friction Points
+While the call ended on a high note, there were several notable bumps in the road:
+* **The Email Discrepancy (A Stealth Confusion Point):** When first asked for his email, the user stated `manasacharya160@gmail.com`. After the brief interruption and spelling prompt, he spelled it as `MANASACHARYA1702@gmail.com`. Aria did not flag this discrepancy (changing from "160" to "1702"), which could lead to communication issues if "160" was actually his primary email and "1702" was a typo under pressure.
+* **The "Spelling" Drop-off:** Asking a user to spell out a long email like "manasacharya" letter-by-letter over a voice call is a high-effort task that almost derailed the call entirely.
+* **The Post-Booking Language Switch:** The user completed the entire, high-stakes booking process in English before asking, *"Kya hum Hindi mein baat kar sakte hain?"* (Can we speak in Hindi?). This suggests he was struggling through his non-preferred language during the most critical part of the call.
+
+---
+
+### 5. Overall Experience Rating: **8/10 (Great with Room for Polish)**
+This call is a testament to the power of a highly adaptive AI. 
+
+**Why this rating?** 
+Aria deserves massive praise for her **multilingual flexibility**. The transition to Hindi was flawless, grammatically natural, and culturally polite. Furthermore, Aria's recovery after the user's "Bye" and subsequent "Is there anyone?" was handled beautifully with warmth and reassurance. 
+
+However, the experience lost points due to the rigid email-spelling protocol which nearly terminated the call prematurely, and the fact that the user had to navigate a complex booking process in English before being offered/switching to his native language.
+
+---
+
+### 6. Actionable Recommendations for Medoria
+
+* **Introduce Upfront Language Selection:** 
+  If the system detects an Indian locale or name, or simply as a standard opening, Aria should offer a quick language choice: *"For English, press 1 or say English. Hindi ke liye 2 dabayein ya Hindi bolein."* Alternatively, Aria can detect the language of the user's query dynamically if they speak in Hindi first.
+* **Redesign the Email Verification Flow:** 
+  Instead of asking users to spell long, complex email addresses letter-by-letter (which is tedious and error-prone), Aria should read back what she *thinks* she heard and ask for confirmation: *"I think I heard manasacharya160@gmail.com, is that correct?"* If it's incorrect, only then ask for clarification, or offer to send a secure booking link via SMS to complete their profile.
+* **Detect Email/Data Mismatches:** 
+  Implement a guardrail where if a user verbally states one email ("160") but spells another ("1702"), the AI gently flags it: *"I noticed you spelled it with 1702, but earlier mentioned 160. Which one is correct?"* This ensures data integrity.
+* **Active Re-engagement During Silence:** 
+  When the user went silent and then asked *"Is there anyone?"*, it means there was a dead-air gap. Medoria should implement a gentle "re-engagement" prompt (e.g., a soft *"I'm still here, Mast! Take your time."* or a comfort chime) to let the caller know they haven't been abandoned.

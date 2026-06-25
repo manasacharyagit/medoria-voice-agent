@@ -1,5 +1,6 @@
 DOCTOR PROFILE
 Name: Dr. Priya Sharma
+Phone: +17432508571
 Email: manas.acharya@medoria.ai
 Calendar ID: manas.acharya@medoria.ai
 Qualification: BDS, MDS (Orthodontics)

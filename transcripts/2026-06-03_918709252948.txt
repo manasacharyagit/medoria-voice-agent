@@ -1,0 +1,47 @@
+Call Date: 2026-06-03 10:09:03
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Medoria. I'm Aria, your virtual assistant. Are you looking for a specific doctor, or can I help you find the right specialist for your concern?
+User: Can you connect me to a dermatologist?
+Aria: We have Dr. Sneha Kapoor available as our dermatologist. Would you like to know more about her?
+User: Sure
+Aria: Dr. Sneha Kapoor is an experienced dermatologist with 9 years of experience, practicing at Kapoor Skin and Hair Clinic in Saket, New Delhi. 
+
+She offers several services, including Skin Consultations, Acne Treatments, Hair Loss Treatments, Laser Treatments, Anti-Aging Treatments, and Mole or Wart Removal. 
+
+Is there a specific service you are interested in, or would you like to book an appointment with her?
+User: Can you tell me about skin consultation?
+Aria: The Skin Consultation is a full skin examination where Dr. Kapoor will diagnose any concerns and create a personalized treatment plan for you. It's great for first-time visits, or if you're dealing with acne, rashes, pigmentation, eczema, or psoriasis. It lasts about 30 minutes and the fee is 700 rupees. 
+
+Would you like to book an appointment for a skin consultation?
+User: Can you tell me about her qualification and experience?
+Aria: Dr. Sneha Kapoor holds an MBBS and an MD in Dermatology, and she has 9 years of experience in this field. 
+
+Would you like to book a skin consultation with her?
+User: Sure
+User: Let me check my dates.
+User: Let me check my dates.
+Aria: Take your time to check. Let me know what date and time works best for you, and we can go ahead with the booking!
+User: Today is Wednesday, so book an appointment at 6 PM.
+Aria: I can certainly help you book that for Wednesday at 6:00 PM. 
+
+First, may I have your full name, please?
+User: My full name is Manas Acharya
+Aria: Thank you, Manas. Could you please share your email address so I can send you the appointment details?
+User: Yes, my email address is manasacharya1702@gmail.com.
+Aria: Thank you. Could you please spell that out for me letter by letter so I make sure I have it right?
+User: M A N A S A C H A R Y A 1702@gmail.com
+Aria: Just to confirm, your email is m-a-n-a-s-a-c-h-a-r-y-a-1-7-0-2-at-g-m-a-i-l-dot-c-o-m, is that correct?
+User: Yes, you spelled A T, that is not A T, that is at the read symbol.
+Aria: Ah, I understand, my apologies! It is the "@" symbol. 
+
+So, just to be absolutely sure, it is m-a-n-a-s-a-c-h-a-r-y-a-1-7-0-2-@-g-m-a-i-l-.-c-o-m. Is that correct?
+User: Yes, that is correct.
+Aria: Could you please confirm the calendar date for today, Wednesday, just so I can put it in the system correctly?
+User: You want me to confirm the date? Today is 3rd of June.
+Aria: So, I have Manas Acharya, appointment with Dr. Sneha Kapoor on June 3rd at 6:00 PM for a Skin Consultation. Shall I confirm this?
+User: Yes
+Aria: Done! You will receive a confirmation email shortly with all the appointment details. Is there anything else I can help you with today?
+User: No, nothing as of now. Thank you so much.
+Aria: You're very welcome, Manas! Have a wonderful day and take care. Goodbye!
+Aria: Thank you for calling Medoria. Have a great day, take care!

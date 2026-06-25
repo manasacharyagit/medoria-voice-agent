@@ -1,0 +1,226 @@
+DOCTOR PROFILE
+Name: Dr. Ashish
+Phone: +919113563000
+Email: manas.acharya@medoria.ai
+Calendar ID: manas.acharya@medoria.ai
+Qualification: 
+Experience: 
+Specialization: 
+Clinic: House of Dental
+Address: 1st Floor, BMN complex, New Airport Rd, Gummanahalli, Bagaluru, Bengaluru, Karnataka 562149
+Languages: English, Hindi and Kannada
+
+WORKING HOURS
+Monday: 
+Tuesday: 
+Wednesday: 
+Thursday: 
+Friday: 
+Saturday: 
+Sunday: 9:00 AM - 6:00 PM
+
+SERVICES
+1. Dental Consultation
+   Price: 400 rupees, Duration: 
+   About: Come for consultation
+   Good for: 
+   Note: Valid for a year
+
+2. Dental Implants
+   Price: , Duration: 
+   About: Services list and brief which the receptionist can communicate
+   Good for: 
+   Note: Forward to consultation
+
+3. Full Mouth Rehabilitation
+   Price: , Duration: 
+   About: 
+   Good for: 
+   Note: Forward to consultation
+
+4. All-on-4 / All-on-X Dental Implants
+   Price: , Duration: 
+   About: Come for consultation
+   Good for: 
+   Note: 
+
+5. Dental Crowns
+   Price: , Duration: 
+   About: 
+   Good for: 
+   Note: 
+
+6. Dental Bridges
+   Price: , Duration: 
+   About: 
+   Good for: 
+   Note: 
+
+7. Routine Dental Exams
+   Price: , Duration: 
+   About: 
+   Good for: 
+   Note: 
+
+8. Professional Teeth Cleanings
+   Price: , Duration: 
+   About: 
+   Good for: 
+   Note: 
+
+9. Dental X-rays
+   Price: , Duration: 
+   About: 
+   Good for: 
+   Note: 
+
+10. Fluoride Treatments
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+11. Dental Sealants
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+12. Composite Fillings
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+13. Root Canal Therapy
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+14. Full & Partial Dentures
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+15. Teeth Whitening
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+16. Porcelain Veneers
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+17. Dental Bonding
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+18. Clear Aligners (Invisalign)
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+19. Traditional Braces
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+20. Tooth Extractions
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+21. Wisdom Teeth Removal
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+22. Scaling and Root Planing (Deep Cleaning)
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+23. Bone Grafting
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+24. Periodontal Surgery
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+25. Pediatric Dentistry
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+26. Emergency Dental Care
+    Price: , Duration: 
+    About: 
+    Good for: Emergency case
+    Note: Handled via calendar flow
+
+27. TMJ / TMD Therapy
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+28. Custom Nightguards (Bruxism Treatment)
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+29. Custom Sports Mouthguards
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+30. Cosmetic Smile Makeovers
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+31. Inlays and Onlays
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+32. Laser Dentistry
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+33. Sedation Dentistry (Sleep Dentistry)
+    Price: , Duration: 
+    About: 
+    Good for: 
+    Note: 
+
+POLICIES
+Appointment: New or followup appointments booked via Calendar. Receptionist gathers Full Name, age, number, major issue, and checks if it's a whatsapp number.
+Cancellation: 
+Emergency: Handled via calendar flow
+Payment: 
+Parking: 

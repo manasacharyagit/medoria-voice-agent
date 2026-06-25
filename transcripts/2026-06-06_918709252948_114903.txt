@@ -1,0 +1,35 @@
+Call Date: 2026-06-06 11:49:03
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hey Arya, I want to book an appointment for today.
+Aria: I can certainly help you with that! May I have your full name, please?
+User: My full name is Manas Acharya
+Aria: Thank you, Manas. Could you share your email address so I can send you the appointment details?
+User: Yes, my email address is manasacharya1702@gmail.com.
+Aria: Could you please spell that out for me, letter by letter, just so I can make sure I have it exactly right?
+User: Sure, it is M A N A S.
+Aria: Got it, M-A-N-A-S. Could you spell the rest of it for me too, please?
+User: 3CHARYA1702@
+Aria: Thank you. So that's M-A-N-A-S, and then is it "A-C-H-A-R-Y-A" or with a number "3"? And please spell out the domain as well.
+User: No, have some patience.
+Aria: My apologies, please take your time. I'm listening.
+User: Wait, Wait, Wait, Wait.
+Aria: No problem at all, I am waiting. Please go ahead whenever you're ready.
+User: Sure, so my email is, I'm spelling it out, my email is MANASACHARYA1702@gmail.com.
+Aria: Just to confirm, your email is M-A-N-A-S-A-C-H-A-R-Y-A-1-7-0-2 @ gmail.com, is that correct?
+User: Yes, that is correct.
+Aria: Thank you for confirming. Since you'd like to book for today, what time works best for you? Also, what would you like to come in for?
+User: I want to come in for ECG at 5 PM.
+Aria: So I have Manas Acharya, appointment with Dr. Arjun Mehta for today at 5:00 PM for an ECG. Shall I go ahead and confirm this booking for you?
+User: Yes
+Aria: Done! Your appointment is successfully booked. You will receive a confirmation email shortly with all the details. Is there anything else I can help you with today?
+User: No, thank you so much. Also, Arya, can you talk in Hindi?
+Aria: हाँ, बिल्कुल! मैं आपसे हिंदी में भी बात कर सकती हूँ। अगर आगे आपको कोई भी मदद चाहिए हो, तो बेझिझक बताइएगा। अपना ख्याल रखिएगा!
+User: Can you tell me about Dr. Arjun Mehta's services?
+Aria: डॉ. अर्जुन मेहता दिल की सेहत से जुड़ी कई तरह की सेवाएं देते हैं। जैसे कि आप एक सामान्य चेकअप के लिए कार्डियक कंसल्टेशन करवा सकते हैं, जिसमें ज़रूरत पड़ने पर ईसीजी भी शामिल होता है। इसके अलावा, हमारे यहाँ ईसीजी, दिल का अल्ट्रासाउंड यानी इकोकार्डियोग्राफी, और ट्रेडमिल पर होने वाला स्ट्रेस टेस्ट भी किया जाता है। अगर किसी को लगातार दिल की धड़कन नापने की ज़रूरत हो, तो उसके लिए होल्टर मॉनिटरिंग और हाई ब्लड प्रेशर के मरीज़ों के लिए हाइपरटेंशन मैनेजमेंट की सुविधा भी उपलब्ध है। 
+
+क्या आप इनमें से किसी विशेष सर्विस के बारे में और जानना चाहते हैं?
+User: Nahi, Thank you so much.
+Aria: आपका बहुत-बहुत धन्यवाद! अगर आपको बाद में भी किसी चीज़ की ज़रूरत हो, तो आप कभी भी कॉल कर सकते हैं। अपना ख्याल रखिएगा, नमस्ते!
+Aria: Thank you for calling Medoria. Have a great day, take care!

@@ -1,0 +1,19 @@
+Call Date: 2026-06-24 10:38:20
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Can you book an appointment for me?
+Aria: Of course, I can help you with that. May I have your full name, please?
+User: My phone name is Manas Acharya
+Aria: Thank you, Manas. Shall I send the appointment details via SMS to the number you're calling from, +918709252948?
+User: Yes
+Aria: Great! I have your number. What would you like to come in for, and what date and time would work best for you?
+User: Cardiac consultation and the time would be 11 Company
+Aria: Got it, a cardiac consultation at 11:00 AM. What date would you like to come in for that?
+User: Today
+Aria: Got it. So, I have an appointment for you, Manas Acharya, with Dr. Arjun Mehta for a Cardiac Consultation today, June 24th, 2026, at 11:00 AM. Shall I go ahead and confirm this for you?
+User: Yes
+Aria: Done! Your appointment is confirmed. You will receive an SMS with all the details at +918709252948 shortly. Is there anything else I can help you with today?
+User: No, thank you so much.
+Aria: You're very welcome, Manas! It was a pleasure assisting you. Have a wonderful day, and we look forward to seeing you at the clinic. Goodbye!
+Aria: Thank you for calling Medoria. Have a great day, take care!

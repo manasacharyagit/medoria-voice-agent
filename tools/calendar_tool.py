@@ -73,7 +73,7 @@ def check_slot_availability(calendar_id: str, date_str: str, time_str: str, dura
         logging.error(f"Error checking slot availability: {e}")
         return False
 
-def book_appointment(calendar_id: str, patient_name: str, patient_email: str, doctor_name: str, date_str: str, time_str: str, service_name: str, duration_minutes: int = 30) -> dict:
+def book_appointment(calendar_id: str, patient_name: str, doctor_name: str, date_str: str, time_str: str, service_name: str, patient_phone: str = None, duration_minutes: int = 30) -> dict:
     """
     Books an appointment on the doctor's Google Calendar.
     Returns booking confirmation details.
@@ -87,7 +87,7 @@ def book_appointment(calendar_id: str, patient_name: str, patient_email: str, do
 
         event = {
             "summary": f"Appointment - {patient_name}",
-            "description": f"Service: {service_name}\nPatient: {patient_name}\nEmail: {patient_email}\nBooked via Medoria AI",
+            "description": f"Service: {service_name}\nPatient: {patient_name}\nPhone: {patient_phone}\nBooked via Medoria AI",
             "start": {
                 "dateTime": start_dt.isoformat(),
                 "timeZone": "Asia/Kolkata"
@@ -96,13 +96,10 @@ def book_appointment(calendar_id: str, patient_name: str, patient_email: str, do
                 "dateTime": end_dt.isoformat(),
                 "timeZone": "Asia/Kolkata"
             },
-            "attendees": [
-                {"email": patient_email}
-            ],
+          
             "reminders": {
                 "useDefault": False,
                 "overrides": [
-                    {"method": "email", "minutes": 60},
                     {"method": "popup", "minutes": 30}
                 ]
             }
@@ -111,7 +108,7 @@ def book_appointment(calendar_id: str, patient_name: str, patient_email: str, do
         created_event = service.events().insert(
             calendarId=calendar_id,
             body=event,
-            sendUpdates="all"
+            sendUpdates="none"
         ).execute()
 
         logging.info(f"Appointment booked successfully: {created_event.get('id')}")

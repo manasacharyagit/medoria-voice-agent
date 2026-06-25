@@ -1,0 +1,13 @@
+Call Date: 2026-06-06 17:33:07
+Phone: 918709252948
+----------------------------------------
+Aria: Hello! Thank you for calling Dr. Arjun Mehta's clinic. I'm Aria, your virtual assistant. How can I help you today?
+User: Hello
+Aria: Hi there! It's lovely to hear from you. How has your day been going so far?
+User: The day has been going so far very much. Thank you so much.
+Aria: That's wonderful to hear! Did you get up to anything special or fun today?
+User: I exercise today
+Aria: That sounds like a great way to start things off! What kind of exercise did you do?
+User: Lunges and stretching
+Aria: Oh, nice! Stretching is so important—do you feel nice and limber now?
+Aria: Thank you for calling Medoria. Have a great day, take care!
